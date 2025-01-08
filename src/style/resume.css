@@ -88,6 +88,13 @@ body {
     margin-right: 0.5em;
     color: #000;
   }
+
+  .fn-print {
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 0.5em;
+  }
+
   /* Print-specific styles */
   @media print {
     body {
@@ -110,6 +117,10 @@ body {
     a {
       color: #000;
       text-decoration: none;
+    }
+
+    .fn-print {
+      display: none;
     }
   }
   

@@ -7,6 +7,10 @@
     "linkedinUrl": "https://www.linkedin.com/in/drshnmaniar",
     "githubUsername": "drshnmaniar",
     "githubUrl": "https://github.com/drshnmaniar",
+    "skills": {
+        "languages": "HTML, CSS, JavaScript, Typescript, C#, T-SQL",
+        "technologies": "Angular, React.js, Redux, .NET, .NET Core, Entity Framework, Dapper, Azure DevOps"
+    },
     "workExperience": [
         {
             "company": "Reveation Labs",
