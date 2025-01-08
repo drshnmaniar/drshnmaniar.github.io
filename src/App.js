@@ -1,5 +1,8 @@
+import Resume from "./components/Resume";
 function App() {
-  return <>This is Darshan Maniar's github page.</>;
+  return <>
+    <Resume />
+  </>;
 }
 
 export default App;
