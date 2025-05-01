@@ -53,6 +53,8 @@ const Skill = ({ skills, ...otherProps }) => {
             <div>
                 <p><span className="bold">Languages</span>: {skills.languages}</p>
                 <p><span className="bold">Technologies</span>: {skills.technologies}</p>
+                <p><span className="bold">Databases</span>: {skills.databases}</p>
+                <p><span className="bold">Frameworks & Libraries</span>: {skills.frameworks}</p>
             </div>
         </section>
     );

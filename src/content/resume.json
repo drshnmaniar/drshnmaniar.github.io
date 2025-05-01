@@ -8,14 +8,22 @@
     "githubUsername": "drshnmaniar",
     "githubUrl": "https://github.com/drshnmaniar",
     "skills": {
-        "languages": "HTML, CSS, JavaScript, Typescript, C#, T-SQL",
-        "technologies": "Angular, React.js, Redux, .NET, .NET Core, Entity Framework, Dapper, Azure DevOps"
+        "languages": "C#, SQL, JavaScript, Typescript, HTML, CSS",
+        "databases": "SQL Server, MySQL, MongoDB",
+        "technologies": ".NET, Microservices, RESTful APIs, Web API, RabbitMQ, Azure DevOps, CI/CD, Agile/Scrum, TFS, Git, Docker",
+        "frameworks": "Entity Framework, Dapper, Angular.js, Angular, React, ExtJS"
     },
+    "summary": [
+        "Full Stack Software Engineer with 6+ years of experience specializing in enterprise application development and modernization.",
+        "Proven track record in leading technical initiatives, mentoring teams, and delivering high-impact solutions that enhance system performance and user experience.",
+        "Expert in developing and maintaining applications using .NET, Angular, and React.js, with strong experience in cloud technologies and CI/CD practices.",
+        "Demonstrated success in transforming legacy systems, implementing microservices architecture, and reducing operational inefficiencies through innovative solutions."
+    ],
     "workExperience": [
         {
             "company": "Reveation Labs",
             "position": "Software Engineer III (Full Stack)",
-            "timeSpan": "Dec 2022 - Present",
+            "timeSpan": "Dec 2022 - March 2025",
             "location": "Remote",
             "tasks": [
                 "Developed new features for legacy Windows applications using C#, while also maintaining and fixing critical functionality in older VB-based apps, ensuring system stability and enhancing user experience.",
