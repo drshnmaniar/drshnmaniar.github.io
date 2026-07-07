@@ -1,0 +1,156 @@
+{
+  "name": "Darshan Maniar",
+  "role": "Software Engineer III (Full Stack)",
+  "tagline": "I take legacy systems everyone's afraid to touch — and make them fast, stable, and modern.",
+  "location": "Heilbronn, Germany",
+  "email": "drshnmaniar@gmail.com",
+  "github": "drshnmaniar",
+  "githubUrl": "https://github.com/drshnmaniar",
+  "linkedinUrl": "https://www.linkedin.com/in/drshnmaniar",
+  "cvEn": "/cv/DarshanManiar-CV.pdf",
+  "cvDe": "/cv/DarshanManiar-CV-DE.pdf",
+  "summary": "Full Stack Engineer with 7+ years in enterprise application development, now in Germany pursuing a Master's in Software Engineering at Hochschule Heilbronn. I specialize in legacy system modernization, performance optimization, and team leadership — with a soft spot for the creative side of building software.",
+  "stats": [
+    { "value": 7, "suffix": "+", "label": "years of engineering" },
+    { "value": 200, "suffix": "+", "label": "apps modernized & monitored" },
+    { "value": 30, "suffix": "%", "label": "fewer support tickets" },
+    { "value": 60, "suffix": "%", "label": "less system downtime" }
+  ],
+  "journey": [
+    {
+      "year": "2013",
+      "place": "Ahmedabad, India",
+      "title": "B.E. Computer Science",
+      "org": "Gujarat Technological University",
+      "detail": "Where it all started. Graduated 2017 with a CGPA of 8.24 and an itch to build real things.",
+      "emoji": "🎓"
+    },
+    {
+      "year": "2017",
+      "place": "Rajkot, India",
+      "title": "Senior Software Engineer",
+      "org": "Tark Technologies LLP",
+      "detail": "Five years of shipping maintainable software, code reviews, pair programming, and mentoring juniors.",
+      "emoji": "⚙️"
+    },
+    {
+      "year": "2022",
+      "place": "Remote, India",
+      "title": "Software Engineer III",
+      "org": "Reveation Labs",
+      "detail": "Led legacy modernization for systems serving 1M+ members. Built monitoring that cut failure detection from hours to minutes.",
+      "emoji": "🚀"
+    },
+    {
+      "year": "2025",
+      "place": "Heilbronn, Germany",
+      "title": "M.Sc. Software Engineering & Management",
+      "org": "Hochschule Heilbronn",
+      "detail": "New country, new language, new chapter. Building toward a long-term career in Germany's tech sector.",
+      "emoji": "🇩🇪"
+    }
+  ],
+  "german": {
+    "current": "A1",
+    "levels": ["A1", "A2", "B1", "B2", "C1", "C2"],
+    "note": "Deutsch lernen: in progress. Ich gebe nicht auf."
+  },
+  "experience": [
+    {
+      "company": "Reveation Labs",
+      "position": "Software Engineer III (Full Stack)",
+      "timeSpan": "Dec 2022 – Mar 2025",
+      "location": "Remote, India",
+      "highlights": [
+        "Architected a real-time health monitoring system (React, microservices, Azure Workbooks) cutting failure detection from 8–10 hours to 10–15 minutes across 50+ global applications.",
+        "Stabilized a legacy subscription system serving 50K vendors and 1M international members — support tickets down 30%.",
+        "Modernized legacy apps: TFS → Git migration, framework upgrades, automated CI/CD — 20% performance gain.",
+        "Built microservices with .NET 8, RabbitMQ, and Web API to restructure member subscription processing.",
+        "Led PI planning and mentored a team of junior developers — 10% faster project delivery."
+      ]
+    },
+    {
+      "company": "Tark Technologies LLP",
+      "position": "Senior Software Engineer",
+      "timeSpan": "Dec 2017 – Dec 2022",
+      "location": "Rajkot, India",
+      "highlights": [
+        "Delivered high-quality, maintainable software across demanding enterprise projects for five years.",
+        "Collaborated closely with QA and stakeholders to gather requirements and ship time-sensitive updates.",
+        "Ran regular code reviews and pair-programming sessions, coaching junior developers."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "System Health Monitoring Dashboard",
+      "role": "Senior Full Stack Developer · Reveation Labs",
+      "period": "Jun 2024 – Dec 2024",
+      "color": "coral",
+      "icon": "📡",
+      "pitch": "From \"the client called, something's down\" to \"we fixed it before anyone noticed.\"",
+      "points": [
+        "Real-time dashboard + intelligent alerting for 200+ mission-critical production systems.",
+        "Mean Time to Detection: hours → minutes.",
+        "Automated notifications with contextual error analysis for faster root-cause hunting."
+      ],
+      "metrics": [
+        { "value": "200+", "label": "systems watched" },
+        { "value": "60%", "label": "less downtime" },
+        { "value": "min", "label": "MTTD (was hrs)" }
+      ],
+      "tech": ["React", "Microservices", ".NET", "Azure Workbooks"]
+    },
+    {
+      "title": "Legacy Modernization & DevOps Transformation",
+      "role": "Lead Developer · Reveation Labs",
+      "period": "Dec 2024 – Jan 2025",
+      "color": "violet",
+      "icon": "🏗️",
+      "pitch": "Turning a VB-era monolith into modular, CI/CD-powered components — without breaking production.",
+      "points": [
+        "Migrated legacy VB applications from TFS to Git and upgraded .NET framework versions.",
+        "Modular NuGet package strategy eliminated version chaos across 200+ applications.",
+        "CI/CD with automated code review: deployments went from hours to minutes."
+      ],
+      "metrics": [
+        { "value": "200+", "label": "apps unified" },
+        { "value": "25%", "label": "perf boost" },
+        { "value": "min", "label": "deploy time (was hrs)" }
+      ],
+      "tech": [".NET", "Git", "NuGet", "CI/CD", "Azure DevOps"]
+    },
+    {
+      "title": "AI Tool Adoption in Academic Research",
+      "role": "Lead Researcher · Hochschule Heilbronn",
+      "period": "Apr 2025 – Jul 2025",
+      "color": "amber",
+      "icon": "🔬",
+      "pitch": "What actually happens when researchers adopt AI tools? I surveyed, measured, and found out.",
+      "points": [
+        "Designed a structured survey methodology — 36 responses over 29 days.",
+        "Statistical analysis + thematic coding across 5 research phases.",
+        "Found 78% productivity gains, but reliability gaps eroding user trust."
+      ],
+      "metrics": [
+        { "value": "78%", "label": "productivity gain found" },
+        { "value": "5", "label": "research phases" },
+        { "value": "36", "label": "responses analyzed" }
+      ],
+      "tech": ["Research design", "Statistics", "Thematic coding", "Python"]
+    }
+  ],
+  "skills": {
+    "Languages": ["C#", "JavaScript", "TypeScript", "SQL", "Python"],
+    "Frameworks": [".NET", "React", "Angular", "Entity Framework"],
+    "Databases": ["SQL Server", "MySQL", "MongoDB"],
+    "Cloud & Tools": ["Azure", "Docker", "Git", "CI/CD", "RabbitMQ"],
+    "Practices": ["Agile/Scrum", "Microservices", "Legacy Modernization", "Mentoring"]
+  },
+  "languages": [
+    { "name": "English", "level": "B2/C1" },
+    { "name": "German", "level": "learning, actively" },
+    { "name": "Hindi", "level": "native" },
+    { "name": "Gujarati", "level": "native" }
+  ]
+}
