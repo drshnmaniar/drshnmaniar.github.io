@@ -36,6 +36,18 @@ function ProjectCard({ project, index }) {
             </span>
           ))}
         </div>
+        {project.link && (
+          <div className="proj-link">
+            <a
+              className="lux-link"
+              href={project.link}
+              target="_blank"
+              rel="noreferrer"
+            >
+              View repo <span className="arrow">↗</span>
+            </a>
+          </div>
+        )}
       </div>
     </article>
   );

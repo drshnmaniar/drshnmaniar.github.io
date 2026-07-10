@@ -7,6 +7,11 @@ export default function Footer() {
         <h2 className="footer-big">
           Let's build something that <em>outlives its framework</em>.
         </h2>
+        <p className="footer-availability">
+          Working student, internship, or freelance today — full-time from
+          early 2027. Either way:
+          <a href={`mailto:${data.email}`}>{data.email}</a>
+        </p>
         <div className="footer-ctas">
           <a className="lux-pill" href={`mailto:${data.email}`}>
             {data.email}

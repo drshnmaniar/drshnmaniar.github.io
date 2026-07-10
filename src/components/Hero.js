@@ -15,6 +15,11 @@ export default function Hero() {
         </h1>
         <p className="hero-tagline">{data.tagline}</p>
         <p className="hero-summary">{data.summary}</p>
+        <p className="hero-availability">
+          <strong>Now:</strong> {data.availability.now}
+          <br />
+          <strong>From early 2027:</strong> {data.availability.from}
+        </p>
         <div className="hero-ctas">
           <a className="lux-pill" href={data.cvEn} download>
             Curriculum Vitae <span aria-hidden="true">↓</span>
