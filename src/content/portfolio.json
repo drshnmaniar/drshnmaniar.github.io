@@ -11,7 +11,7 @@
   "cvDe": "/cv/DarshanManiar-CV-DE.pdf",
   "summary": "Full Stack Engineer with 7+ years in enterprise software — legacy modernization, performance work, and leading small teams. In 2025 I moved to Germany for an M.Sc. at Hochschule Heilbronn, because I'm building a career here for the long run, not collecting a degree.",
   "availability": {
-    "now": "available for working student roles, internships, and freelance projects",
+    "now": "open to working student, internship, and freelance roles — and to full-time, if the timing works for your team.",
     "from": "full-time."
   },
   "stats": [
@@ -58,7 +58,7 @@
       "place": "Germany",
       "title": "Full-time, somewhere good",
       "org": "Possibly your team",
-      "detail": "Graduating early 2027. Until then: working student, internship, or freelance. After: building things that outlive their framework.",
+      "detail": "Graduating early 2027. Until then: working student, internship, or freelance — or full-time already, for the right team. After: building things that outlive their framework.",
       "emoji": "🎯"
     }
   ],
@@ -87,10 +87,10 @@
       "timeSpan": "Dec 2017 – Dec 2022",
       "location": "Rajkot, India",
       "highlights": [
-        "Built an in-house Alexa skill end-to-end — front end and backend — during the 2018 voice-assistant wave.",
-        "Modernized a high-traffic, multi-role POS portal from AngularJS through a hybrid architecture to Angular; owned backend services and stored procedures through 50K-order summer peak seasons.",
+        "Built an in-house Alexa skill end-to-end — front-end and back-end — during the 2018 voice-assistant wave.",
+        "Modernized a high-traffic, multi-role POS portal from AngularJS through a hybrid architecture to Angular; owned back-end services and stored procedures through peak summer seasons of 50K orders.",
         "Rebuilt a rehab-facility ERP from classic ASP to Angular, managing enrollment, therapy scheduling, and billing to partner foundations for 300–400 concurrent patients.",
-        "Digitized a gene-testing lab's paper intake into a React front end over a multi-stack backend, and built the ETL pipeline feeding a long-term patient health-data store across 150–180 partner clinics.",
+        "Digitized a gene-testing lab's paper intake with a React front-end over a multi-stack back-end, and built the ETL pipeline feeding a long-term patient health-data store across 150–180 partner clinics.",
         "Promoted to Senior in 2020; ran code reviews and pair-programming sessions and coached 4–5 junior developers from there on."
       ]
     }
@@ -157,7 +157,7 @@
       "period": "2025 – ongoing",
       "color": "coral",
       "icon": "🛠️",
-      "pitch": "The CV you download here is compiled from LaTeX by CI on every push — it is physically incapable of being stale.",
+      "pitch": "The CV you download here is compiled from LaTeX by CI on every push — so it can never fall out of date.",
       "points": [
         "React site with all content in a single JSON file — copy changes never touch components.",
         "GitHub Actions pipeline compiles English and German CVs from LaTeX on every push.",

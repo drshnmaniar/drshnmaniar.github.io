@@ -1,51 +1,17 @@
 \documentclass[a4paper,11pt]{article}
 
 % Essential packages
-\usepackage{latexsym}
 \usepackage{xcolor}
-\usepackage{float}
 \usepackage{ragged2e}
 \usepackage[empty]{fullpage}
-\usepackage{wrapfig}
-\usepackage{lipsum}
-\usepackage{tabularx}
 \usepackage{titlesec}
 \usepackage{mathptmx}
-
-% Layout and design packages
 \usepackage{geometry}
-\usepackage{marvosym}
-\usepackage{verbatim}
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
-\usepackage{fontawesome5}
-\usepackage{multicol}
-\usepackage{graphicx}
-% \usepackage{cfr-lm}
-\usepackage{adjustbox}
-% \usepackage[T1]{fontenc}
 
 % Page geometry settings
 \geometry{left=1.4cm, top=1cm, right=1.2cm, bottom=1cm}
-\setlength{\multicolsep}{0pt}
-
-% Color box configuration
-\usepackage[most]{tcolorbox}
-\tcbset{
-    frame code={},
-    center title,
-    left=0pt,
-    right=0pt,
-    top=0pt,
-    bottom=0pt,
-    colback=gray!20,
-    colframe=white,
-    width=\dimexpr\textwidth\relax,
-    enlarge left by=-2mm,
-    boxsep=4pt,
-    arc=0pt,
-    outer arc=0pt
-}
 
 %----------------------------------------------------------------------------------------
 %	CUSTOM COMMANDS
@@ -61,60 +27,32 @@
     \vspace{-4pt}\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
 
-% Resume item commands
-\newcommand{\resumeItem}[2]{
-    \item\textbf{#1}{\hspace{0.5mm}#2 \vspace{-0.5mm}}
-}
-
-\newcommand{\resumePOR}[3]{
+% Experience/education heading — title left, meta right, no tables (ATS-friendly).
+% Local \rightskip=0pt cancels the global \raggedright so \hfill pushes flush right.
+\newcommand{\resumeSubheading}[4]{%
 \vspace{0.5mm}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-        \textbf{#1}\hspace{0.3mm}#2 & \textit{\small{#3}} 
-    \end{tabular*}
-    \vspace{-2mm}
-}
-
-\newcommand{\resumeSubheading}[4]{
-\vspace{0.5mm}\item
-    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
-        \textbf{#1} & \textit{\footnotesize{#4}} \\
-        \textit{\footnotesize{#3}} &  \footnotesize{#2}\\
-    \end{tabular*}
+    {\rightskip=0pt\relax
+     \textbf{#1}\hfill\textit{\footnotesize{#4}}\\
+     \textit{\footnotesize{#3}}\hfill\footnotesize{#2}\par}%
     \vspace{-2.4mm}
 }
 
-\newcommand{\resumeProject}[4]{
+% Project heading — title left, dates right / role left, org right.
+\newcommand{\resumeProject}[4]{%
 \vspace{0.5mm}\item
-    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
-        \textbf{#1} & \textit{\footnotesize{#3}} \\
-        \footnotesize{\textit{#2}} & \footnotesize{#4}
-    \end{tabular*}
+    {\rightskip=0pt\relax
+     \textbf{#1}\hfill\textit{\footnotesize{#3}}\\
+     \footnotesize{\textit{#2}}\hfill\footnotesize{#4}\par}%
     \vspace{-2.4mm}
 }
 
-\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
-
-% \renewcommand{\labelitemii}{$\circ$}
 \renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny}}$}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=0mm]}
-\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*,itemsep=1.7mm, rightmargin=2ex]}
 \newcommand{\resumeItemListStart}{\begin{justify}\begin{itemize}[leftmargin=3ex, rightmargin=2ex, noitemsep,labelsep=1.2mm,itemsep=0mm]\small}
 
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{2mm}}
-\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\end{justify}\vspace{-2mm}}
-\newcommand{\cvsection}[1]{%
-\vspace{2mm}
-\begin{tcolorbox}
-    \textbf{\large #1}
-\end{tcolorbox}
-    \vspace{-4mm}
-}
-
-\newcolumntype{L}{>{\raggedright\arraybackslash}X}%
-\newcolumntype{R}{>{\raggedleft\arraybackslash}X}%
-\newcolumntype{C}{>{\centering\arraybackslash}X}%
 %---- End of Packages and Functions ------
 
 %-------------------------------------------
@@ -128,31 +66,21 @@
 \begin{document}
 % \fontfamily{cmr}\selectfont
 
-% Header section
-\begin{multicols}{2}
-    \columnsep=2cm
-    \textbf{\huge \name} \\[0.3em]
-    {\footnotesize \faBriefcase}\ Software Engineer III (Full Stack) \\[0.2em]
-    {\footnotesize \faHome}\ 74081, Heilbronn \\[0.2em]
-    {\footnotesize \faPhone}\ +49-155 10826517 \\[0.2em]
-    {\footnotesize \faEnvelope}\ \href{mailto:drshnmaniar@gmail.com}{drshnmaniar@gmail.com} \\[0.2em]
-    {\footnotesize \faGithub}\ \href{https://github.com/drshnmaniar}{drshnmaniar} \\[0.2em]
-    {\footnotesize \faLinkedin}\ \href{https://www.linkedin.com/in/drshnmaniar}{drshnmaniar} \\[0.2em]
-    {\footnotesize \faPassport}\ Indian | Work Authorization: German Student Visa
-
-    \columnbreak
-
-    \begin{flushright}
-    {\includegraphics[width=3.6cm]{darshan_square.png}}
-    \end{flushright}
-\end{multicols}
+% Header (single column, no photo — ATS-friendly)
+\begin{center}
+    {\huge \textbf{\name}} \\[0.4em]
+    Software Engineer III (Full Stack) \\[0.35em]
+    74081, Heilbronn, Germany \enspace|\enspace +49-155 10826517 \enspace|\enspace \href{mailto:drshnmaniar@gmail.com}{drshnmaniar@gmail.com} \\[0.25em]
+    \href{https://github.com/drshnmaniar}{github.com/drshnmaniar} \enspace|\enspace \href{https://www.linkedin.com/in/drshnmaniar}{linkedin.com/in/drshnmaniar} \enspace|\enspace \href{https://drshnmaniar.github.io}{drshnmaniar.github.io} \\[0.25em]
+    Nationality: Indian \enspace|\enspace Work Authorization: German Student Visa
+\end{center}
 
 \vspace{-2.5mm}
 %-----------Technical skills-----------------
 \section{\textbf{Summary}}
 
  \begin{itemize}[leftmargin=0.05in, label={}]
-    \small\item {Experienced Full Stack Software Engineer with 7+ years in enterprise application development, now based in Germany pursuing Master's in Software Engineering at Hochschule Heilbronn. Specialized in legacy system modernization, performance optimization, and team leadership with proven success in multicultural environments. Expert in .NET, React, and Azure cloud technologies with demonstrated ability to deliver measurable business results (30\% reduction in support tickets, 20-25\% performance improvements). Fluent in English with developing German skills, committed to long-term career growth in Germany's dynamic technology sector.}
+    \small\item {Full Stack Software Engineer with 7+ years in enterprise application development, now based in Germany pursuing a Master's in Software Engineering at Hochschule Heilbronn. Specialized in legacy system modernization, performance optimization, and team leadership across multicultural, remote teams. Strong in .NET, React, and Azure cloud technologies, with a track record of stabilizing legacy platforms and cutting failure detection from hours to minutes. Fluent in English with developing German skills, committed to a long-term career in Germany.}
  \end{itemize}
  \vspace{-16pt}
 %-----------EXPERIENCE-----------------
@@ -162,17 +90,16 @@
   \vspace{-1 mm}
     \pagebreak[2]
     \resumeSubheading
-      {Reveation Labs}{Dec 2022 - March 2025}
+      {Reveation Labs}{Dec 2022 - Mar 2025}
       {Software Engineer III (Full Stack)}{Remote, India}
       \vspace{-1.0mm}
       \resumeItemListStart
-    \item Developed new features for legacy Windows applications using C\#, while also maintaining and fixing critical functionality in older VB-based apps, ensuring system stability and enhancing user experience. 
-    \item Led the team during PI planning, identifying key challenges, proposing actionable solutions, and documenting strategies to enhance alignment and efficiency between business and IT teams, resulting in a 10\% improvement in project delivery timelines.
-    \item Architected real-time health monitoring system using React, Microservices, Scheduled jobs and Azure Workbooks, reducing failure detection times from 8-10 hours to 10-15 minutes across 50+ global applications, enhancing business responsiveness.
-    \item Stabilized legacy subscription management system serving 50K vendors and 1 million international members, reducing support tickets by 30\% through systematic problem-solving approach.
-    \item Modernized legacy applications by transitioning from TFS to Git, updating framework versions, and implementing automated CI/CD pipelines, resulting in a 20\% improvement in system performance and faster deployments.
+    \item Architected a real-time health monitoring system using React, Microservices, Scheduled jobs and Azure Workbooks, reducing failure detection times from 8-10 hours to 10-15 minutes across 50+ global applications, enhancing business responsiveness.
+    \item Stabilized a legacy subscription management system serving 50K vendors and 1 million international members, reducing support tickets by roughly 30\% over the following year through a systematic problem-solving approach.
+    \item Modernized legacy applications by transitioning from TFS to Git, updating framework versions, and implementing automated CI/CD pipelines for faster, more reliable deployments.
     \item Collaborated with peers to implement microservices using .NET 8, RabbitMQ, and Web API, restructuring legacy applications to enhance member subscription processing and system scalability.
-    \item Led and mentored a small team of junior developers, providing guidance and oversight to ensure quality and efficiency in project deliverables.
+    \item Led the team during PI planning, identifying key challenges, proposing actionable solutions, and documenting strategies to improve alignment and efficiency between business and IT teams, while mentoring 4-5 junior developers.
+    \item Developed new features for legacy Windows applications using C\#, while maintaining and fixing critical functionality in older VB-based apps, ensuring system stability and enhancing user experience.
     \resumeItemListEnd
     
     \vspace{-3 mm}
@@ -180,13 +107,14 @@
     \pagebreak[2]
     \resumeSubheading
       {Tark Technologies LLP}{Dec 2017 - Dec 2022}
-      {Senior Software Engineer}{Rajkot, India}
+      {Junior Software Engineer, promoted to Senior (2020)}{Rajkot, India}
       \vspace{-1.0mm}
       \resumeItemListStart
-    \item Developed and maintained software applications following the team’s best practices and processes, consistently delivering high‐quality, maintainable software.
-    \item Effectively collaborated with peers and the QA team to gather requirements, resolve issues, and manage time‐sensitive updates, ensuring project success.
-    \item Demonstrated leadership and technical skills, capable of handling demanding project tasks, resolving issues, and meeting deadlines.
-    \item Conducted regular code reviews and pair programming sessions, providing constructive feedback and guidance to junior developers.  
+    \item Built an in-house Alexa skill end-to-end (front-end and back-end) during the 2018 voice-assistant wave, feeding and managing its content pipeline.
+    \item Modernized a high-traffic, multi-role POS portal from AngularJS through a hybrid architecture to Angular; owned back-end services and stored procedures supporting 50K orders across peak summer seasons.
+    \item Rebuilt a rehabilitation-facility ERP from classic ASP to Angular, modernizing the back-end and handling enrollment, therapy scheduling, and billing to partner foundations for 300-400 concurrent patients.
+    \item Digitized a gene-testing lab's paper-based intake with a React front-end over a multi-stack back-end, and built the ETL pipeline feeding a long-term patient health-data store across 150-180 partner clinics.
+    \item Promoted to Senior in 2020; ran code reviews and pair programming sessions and coached 4-5 junior developers.
     \resumeItemListEnd
     
     \vspace{-3.0mm}
@@ -203,7 +131,7 @@
   \vspace{-1 mm}
     \pagebreak[2]
     \resumeSubheading
-      {Hochschule Heilbronn - Germany}{March 2025 - Present}
+      {Hochschule Heilbronn - Germany}{Mar 2025 - Present}
       {Master of Science in Software Engineering and Management}{Heilbronn, Germany}
     \pagebreak[2]
     \resumeSubheading
@@ -221,7 +149,7 @@
      \textbf{Databases}{: SQL Server, MySQL, MongoDB}\\
      \textbf{Tools}{: Azure, Docker, Git, CI/CD, RabbitMQ}\\
      \textbf{Methodologies}{: Agile/Scrum, Microservices}\\
-     \textbf{Languages}{: English (B2), German (A1), Hindi (Native), Gujarati (Native)} \\
+     \textbf{Languages}{: English (Fluent), German (A1), Hindi (Native), Gujarati (Native)} \\
     }
 \end{itemize}
 \vspace{-4.5 mm}
@@ -231,7 +159,7 @@
 \pagebreak[3]
  \begin{itemize}[leftmargin=0.05in, label={}]
     \small\item{
-     \textbf{Python 3 Programming}{ : \href{https://coursera.org/share/ff34d909a15ffa2eec59e366533731b1}{Coursera}}
+     \textbf{Python 3 Programming}{: \href{https://coursera.org/share/ff34d909a15ffa2eec59e366533731b1}{Coursera}}
     }
  \end{itemize}
 \vspace{-4.5mm}
@@ -244,11 +172,22 @@
     \vspace{-1 mm}
      \pagebreak[2]
      \resumeProject
-      {AI Tool Adoption in Academic Research}{Lead Researcher}{April 2025 - July 2025}{Academic Research}
+      {Personal Site \& Always-Current CV}{Design, Build, Automation}{2025 - Present}{\href{https://github.com/drshnmaniar/drshnmaniar.github.io}{github.com/drshnmaniar}}
       \resumeItemListStart
-       \item {Designed and deployed structured survey methodology collecting 36 responses across 29 days, analyzing user experience patterns and adoption barriers for AI tools in research workflows}
-       \item {Performed statistical analysis and thematic coding of quantitative/qualitative data using descriptive statistics and manual analysis techniques}
-       \item {Identified key integration challenges across 5 research phases, revealing 78\% productivity improvements but reliability gaps affecting user trust}
+       \item {Built a React portfolio with all content in a single JSON file, so copy changes never touch component code}
+       \item {Set up a GitHub Actions pipeline that compiles the English and German CVs from LaTeX on every push, keeping the downloadable PDFs always current}
+       \item {Open source; the repository doubles as a verifiable, hands-on skills sample}
+    \resumeItemListEnd
+    \vspace{-2mm}
+
+    \vspace{-1 mm}
+     \pagebreak[2]
+     \resumeProject
+      {AI Tool Adoption in Academic Research}{Graduate coursework project (1st semester)}{Apr 2025 - Jul 2025}{Hochschule Heilbronn}
+      \resumeItemListStart
+       \item {Designed and deployed a structured survey methodology collecting 36 responses across 29 days, analyzing user experience patterns and adoption barriers for AI tools in research workflows}
+       \item {Performed statistical analysis and thematic coding of quantitative and free-text data using descriptive statistics and manual analysis techniques}
+       \item {Found that 78\% of respondents reported productivity gains, while reliability gaps were eroding their trust in the tools}
        \item {Delivered actionable insights on tool fragmentation, pricing models, and workflow optimization that informed recommendations for platform consolidation}
     \resumeItemListEnd
     \vspace{-2mm}
@@ -260,20 +199,19 @@
     \resumeItemListStart
       \item {Led migration of legacy VB applications from TFS to Git, upgrading .NET framework versions, and modernizing development workflows for improved maintainability}
       \item {Architected modular NuGet package strategy converting monolithic legacy modules into reusable components, eliminating version inconsistencies across 200+ applications}
-      \item {Implemented CI/CD pipeline with automated code review processes, reducing manual deployment time from hours to minutes while establishing consistent code quality standards across development teams}
-      \item {Delivered 20-25\% performance improvements through framework upgrades and standardized development practices, transforming both technical architecture and team collaboration workflows}
+      \item {Implemented CI/CD pipeline with automated code review and a manual testing gate, reducing deployment time from 2-3 hours to about 1 hour while establishing consistent code quality standards across development teams}
     \resumeItemListEnd
     \vspace{-2 mm}
     
     \vspace{-1 mm}
     \pagebreak[2]
     \resumeProject
-      {System Health Monitoring Dashboard}{Senior Full Stack Developer}{June 2024 - Dec 2024}{Reveation Labs}
+      {System Health Monitoring Dashboard}{Senior Full Stack Developer}{Jun 2024 - Dec 2024}{Reveation Labs}
          
       \resumeItemListStart
       \item {Architected comprehensive monitoring solution for 200+ mission-critical production systems, eliminating reactive incident management and ensuring business continuity}
       \item {Developed real-time dashboard with intelligent alerting system, reducing Mean Time to Detection (MTTD) from hours to minutes, directly impacting customer satisfaction}
-      \item {Implemented automated notification system with contextual error analysis, enabling faster root cause identification and reducing system downtime by 60\%}
+      \item {Implemented automated notification system with contextual error analysis, enabling faster root cause identification and more proactive incident response}
       \item {Delivered proactive monitoring solution that transformed operational model from client-reported issues to predictive maintenance}
       \item {Collaborated with cross-functional teams across multiple time zones to ensure seamless integration with existing enterprise infrastructure}
       \resumeItemListEnd
