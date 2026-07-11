@@ -242,7 +242,20 @@
 .hero-summary {
   max-width: 560px;
   color: var(--muted);
+  margin-bottom: 28px;
+}
+
+.hero-availability {
+  max-width: 560px;
+  color: var(--gold);
+  font-size: 0.95rem;
+  line-height: 1.8;
   margin-bottom: 54px;
+}
+
+.hero-availability strong {
+  color: var(--accent);
+  font-weight: 600;
 }
 
 .hero-ctas {
@@ -596,6 +609,10 @@
   color: var(--muted);
 }
 
+.proj-link {
+  margin-top: 18px;
+}
+
 .proj-tech .sep {
   color: var(--gold);
   margin: 0 10px;
@@ -742,6 +759,17 @@
   letter-spacing: -0.01em;
   max-width: 760px;
   margin-bottom: 48px;
+}
+
+.footer-availability {
+  color: var(--muted);
+  font-size: 1rem;
+  max-width: 640px;
+  margin-bottom: 40px;
+}
+
+.footer-availability a {
+  color: var(--gold);
 }
 
 .footer-big em {

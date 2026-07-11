@@ -21,3 +21,13 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# LaTeX build artifacts (CVs are compiled fresh by CI)
+LaTex/*.aux
+LaTex/*.log
+LaTex/*.out
+LaTex/*.pdf
+LaTex/*.fls
+LaTex/*.fdb_latexmk
+LaTex/*.synctex.gz
+LaTex/*.toc
