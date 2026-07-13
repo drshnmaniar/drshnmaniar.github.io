@@ -1,7 +1,7 @@
 {
   "name": "Darshan Maniar",
   "role": "Software Engineer III (Full Stack)",
-  "tagline": "I take legacy systems everyone's afraid to touch — and make them fast, stable, and modern.",
+  "tagline": "I take legacy systems everyone's afraid to touch and make them fast, stable, and modern.",
   "location": "Heilbronn, Germany",
   "email": "drshnmaniar@gmail.com",
   "github": "drshnmaniar",
@@ -9,16 +9,16 @@
   "linkedinUrl": "https://www.linkedin.com/in/drshnmaniar",
   "cvEn": "/cv/DarshanManiar-CV.pdf",
   "cvDe": "/cv/DarshanManiar-CV-DE.pdf",
-  "summary": "Full Stack Engineer with 7+ years in enterprise software — legacy modernization, performance work, and leading small teams. In 2025 I moved to Germany for an M.Sc. at Hochschule Heilbronn, because I'm building a career here for the long run, not collecting a degree.",
+  "summary": "Full Stack Engineer with 7+ years in enterprise software: legacy modernization, performance work, and leading small teams. In 2025 I moved to Germany for an M.Sc. at Hochschule Heilbronn, because I'm here to build a career for the long run, not to collect a degree.",
   "availability": {
-    "now": "open to working student, internship, and freelance roles — and to full-time, if the timing works for your team.",
+    "now": "open to working student, internship, and freelance roles, and to full-time if the timing works for your team.",
     "from": "full-time."
   },
   "stats": [
     { "value": 7, "suffix": "+", "label": "years of engineering" },
     { "value": 1, "suffix": "M+", "label": "members on systems I've maintained" },
     { "value": 200, "suffix": "+", "label": "apps in the modernization program I led" },
-    { "value": 15, "suffix": "min", "label": "failure detection — down from 8+ hours" }
+    { "value": 15, "suffix": "min", "label": "failure detection, down from 8+ hours" }
   ],
   "journey": [
     {
@@ -50,7 +50,7 @@
       "place": "Heilbronn, Germany",
       "title": "M.Sc. Software Engineering & Management",
       "org": "Hochschule Heilbronn",
-      "detail": "New country, new language, new chapter — and a deliberate one. Germany is the long game; the Master's is the door, not the destination.",
+      "detail": "New country, new language, and a move I made on purpose. Germany is the long game; the degree is how I get in the door, not the reason I came.",
       "emoji": "🇩🇪"
     },
     {
@@ -58,7 +58,7 @@
       "place": "Germany",
       "title": "Full-time, somewhere good",
       "org": "Possibly your team",
-      "detail": "Graduating early 2027. Until then: working student, internship, or freelance — or full-time already, for the right team. After: building things that outlive their framework.",
+      "detail": "Graduating early 2027. Until then: working student, internship, or freelance, or full-time already for the right team. After: building things that outlive their framework.",
       "emoji": "🎯"
     }
   ],
@@ -71,27 +71,27 @@
     {
       "company": "Reveation Labs",
       "position": "Software Engineer III (Full Stack)",
-      "timeSpan": "Dec 2022 – Mar 2025",
+      "timeSpan": "Dec 2022 - Mar 2025",
       "location": "Remote, India",
       "highlights": [
-        "Architected a real-time health monitoring system (React, .NET microservices, Azure Workbooks) for 50+ global applications — failure detection went from 8–10 hours to 10–15 minutes.",
+        "Architected a real-time health monitoring system (React, .NET microservices, Azure Workbooks) for 50+ global applications. Failure detection went from 8-10 hours to 10-15 minutes.",
         "Stabilized a legacy subscription platform serving 50K vendors and 1M+ international members; support ticket volume fell by roughly a third over the following year.",
         "Drove the TFS → Git migration, framework upgrades, and automated CI/CD across the legacy estate.",
         "Built .NET 8 microservices with RabbitMQ and Web API to restructure member subscription processing.",
-        "Led PI planning and mentored 4–5 junior developers."
+        "Led PI planning and mentored 4-5 junior developers."
       ]
     },
     {
       "company": "Tark Technologies LLP",
       "position": "Junior Software Engineer → Senior Software Engineer",
-      "timeSpan": "Dec 2017 – Dec 2022",
+      "timeSpan": "Dec 2017 - Dec 2022",
       "location": "Rajkot, India",
       "highlights": [
-        "Built an in-house Alexa skill end-to-end — front-end and back-end — during the 2018 voice-assistant wave.",
+        "Built an in-house Alexa skill end-to-end, front-end and back-end, during the 2018 voice-assistant wave.",
         "Modernized a high-traffic, multi-role POS portal from AngularJS through a hybrid architecture to Angular; owned back-end services and stored procedures through peak summer seasons of 50K orders.",
-        "Rebuilt a rehab-facility ERP from classic ASP to Angular, managing enrollment, therapy scheduling, and billing to partner foundations for 300–400 concurrent patients.",
-        "Digitized a gene-testing lab's paper intake with a React front-end over a multi-stack back-end, and built the ETL pipeline feeding a long-term patient health-data store across 150–180 partner clinics.",
-        "Promoted to Senior in 2020; ran code reviews and pair-programming sessions and coached 4–5 junior developers from there on."
+        "Rebuilt a rehab-facility ERP from classic ASP to Angular, managing enrollment, therapy scheduling, and billing to partner foundations for 300-400 concurrent patients.",
+        "Digitized a gene-testing lab's paper intake with a React front-end over a multi-stack back-end, and built the ETL pipeline feeding a long-term patient health-data store across 150-180 partner clinics.",
+        "Promoted to Senior in 2020; ran code reviews and pair-programming sessions and coached 4-5 junior developers from there on."
       ]
     }
   ],
@@ -99,7 +99,7 @@
     {
       "title": "System Health Monitoring Dashboard",
       "role": "Senior Full Stack Developer · Reveation Labs",
-      "period": "Jun 2024 – Dec 2024",
+      "period": "Jun 2024 - Dec 2024",
       "color": "coral",
       "icon": "📡",
       "pitch": "From \"the client called, something's down\" to \"we fixed it before anyone noticed.\"",
@@ -117,32 +117,32 @@
     {
       "title": "Legacy Modernization & DevOps Transformation",
       "role": "Lead Developer · Reveation Labs",
-      "period": "Dec 2024 – Jan 2025",
+      "period": "Dec 2024 - Jan 2025",
       "color": "violet",
       "icon": "🏗️",
-      "pitch": "Turning a VB-era monolith into modular, CI/CD-powered components — without breaking production.",
+      "pitch": "Turning a VB-era monolith into modular, CI/CD-powered components, without breaking production.",
       "points": [
         "Migrated legacy VB applications from TFS to Git and upgraded .NET framework versions.",
         "Modular NuGet package strategy eliminated version chaos across 200+ applications.",
-        "CI/CD with automated code review and a manual testing gate: deployments went from 2–3 hours to about an hour."
+        "CI/CD with automated code review and a manual testing gate: deployments went from 2-3 hours to about an hour."
       ],
       "metrics": [
         { "value": "200+", "label": "apps unified" },
-        { "value": "~1hr", "label": "deploy time (was 2–3hrs)" }
+        { "value": "~1hr", "label": "deploy time (was 2-3hrs)" }
       ],
       "tech": [".NET", "Git", "NuGet", "CI/CD", "Azure DevOps"]
     },
     {
       "title": "AI Tool Adoption in Academic Research",
       "role": "Coursework research project · 1st semester · Hochschule Heilbronn",
-      "period": "Apr 2025 – Jul 2025",
+      "period": "Apr 2025 - Jul 2025",
       "color": "amber",
       "icon": "🔬",
       "pitch": "What actually happens when researchers adopt AI tools? I surveyed, measured, and found out.",
       "points": [
-        "Designed and ran a structured survey — 36 responses over 29 days.",
+        "Designed and ran a structured survey: 36 responses over 29 days.",
         "Statistical analysis and thematic coding of quantitative and free-text answers.",
-        "78% of respondents reported productivity gains — but reliability gaps were eroding their trust in the tools."
+        "78% of respondents reported productivity gains, but reliability gaps were eroding their trust in the tools."
       ],
       "metrics": [
         { "value": "78%", "label": "of respondents reported gains" },
@@ -154,14 +154,14 @@
     {
       "title": "This Site & the Always-Current CV",
       "role": "Design · Build · Automation",
-      "period": "2025 – ongoing",
+      "period": "2025 - ongoing",
       "color": "coral",
       "icon": "🛠️",
-      "pitch": "The CV you download here is compiled from LaTeX by CI on every push — so it can never fall out of date.",
+      "pitch": "The CV you download here is compiled from LaTeX by CI on every push, so it can never fall out of date.",
       "points": [
-        "React site with all content in a single JSON file — copy changes never touch components.",
+        "React site with all content in a single JSON file, so copy changes never touch components.",
         "GitHub Actions pipeline compiles English and German CVs from LaTeX on every push.",
-        "Open source — read the code, it's the most honest skills section on this page."
+        "Open source. Read the code; it's the most honest skills section on this page."
       ],
       "metrics": [
         { "value": "2", "label": "CV languages, one source" },
@@ -179,7 +179,7 @@
     "Practices": ["Agile/Scrum", "Microservices", "Legacy Modernization", "Mentoring"]
   },
   "languages": [
-    { "name": "English", "level": "fluent — my working language for 7+ years" },
+    { "name": "English", "level": "fluent, my working language for 7+ years" },
     { "name": "German", "level": "A1, actively improving" },
     { "name": "Hindi", "level": "native" },
     { "name": "Gujarati", "level": "native" }
