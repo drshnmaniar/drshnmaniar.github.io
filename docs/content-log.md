@@ -209,3 +209,42 @@ Tools" only had "Azure". Added, closing a claim the Skills section didn't back u
 card. Added `og:image`, `og:type`, and `twitter:card` pointing at the existing `logo512.png`.
 This is a stopgap, not a designed 1200×630 card — that work is still open in
 [backlog.md](backlog.md) under the prerender item.
+
+---
+
+## Run 4 — AI-assistance claim, 2026-07-22
+
+Source: `src/content/portfolio.json`, `LaTex/cv.en.json`, `LaTex/cv.de.json`.
+
+The docs in this repo already record that content is maintained with an AI coding agent under a
+review loop; nothing on the CV or the site said so. This run states it — deliberately, and in the
+only form that survives a screener: named tool, named control, evidence already committed. The
+alternative considered and rejected was leaving it unstated, which would have meant the strongest
+process evidence in the repo stayed invisible to the only person it was for.
+
+### v25 · T25 — the claim, on the site card → *W13*
+
+The personal-site card gained a bullet: content revisions run through an AI coding agent under a
+written standards-and-review loop, every claim gated and every revision logged, both files in the
+repo. `Claude Code` joins the card's `tech` tags. The card's closing line — "it's the most honest
+skills section on this page" — deliberately stays last, because the new bullet is what makes it
+literally true.
+
+### v26 · T26 — the skill, named properly → *W11, W13*
+
+Skills / Practices gained "AI-assisted development (Claude Code)". Rejected phrasings: bare "AI",
+"prompt engineering", and "vibe coding" — the first is filler under the language standard, the
+second is not a skill, and the third describes the opposite of what this repo does. The entry
+names a tool and a discipline, which is what the `tech` tag from T25 required.
+
+### v27 · T27 — the CV takes the cheap half → *C8, L6*
+
+Both CVs gained the same Technical Skills entry ("AI-assisted development (Claude Code)" /
+"KI-gestützte Entwicklung (Claude Code)"). They did **not** gain the explanatory project bullet.
+
+That was tried first and reverted inside the task: the German CV has been one dense page since
+v13, and a third project bullet pushed the AI-research entry onto a near-empty page 2 — the
+layout defect the structure standard exists to prevent. Rather than pad page 2 or thin a real
+claim to buy room for a meta one, the explanation stays on the site, which has space to give it.
+Same precedent as v15: the site keeps what the CV cannot afford. English was reverted with it,
+since EN and DE state the same thing or neither does.
