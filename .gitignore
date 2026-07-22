@@ -22,6 +22,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Generated CV LaTeX (rendered from template.tex.j2 + cv.*.json by build.py)
+LaTex/main.tex
+LaTex/main_de.tex
+
 # LaTeX build artifacts (CVs are compiled fresh by CI)
 LaTex/*.aux
 LaTex/*.log

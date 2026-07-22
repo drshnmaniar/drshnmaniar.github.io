@@ -1,0 +1,136 @@
+{
+  "lang": "de",
+  "labels": {
+    "summary": "Profil",
+    "experience": "Berufserfahrung",
+    "education": "Bildungsweg",
+    "skills": "Technische Fähigkeiten",
+    "certification": "Zertifizierungen",
+    "projects": "Projekte",
+    "address": "Adresse:",
+    "phone": "Telefon:",
+    "email": "E-Mail:",
+    "github": "GitHub:",
+    "linkedin": "LinkedIn:",
+    "website": "Website:"
+  },
+  "header": {
+    "title": "Softwareentwickler III (Full Stack)",
+    "address": "74081, Heilbronn",
+    "nationality": "Staatsangehörigkeit: Indisch | Arbeitserlaubnis: Deutsches Studentenvisum"
+  },
+  "summary": "Full-Stack-Softwareentwickler mit mehr als 7 Jahren Erfahrung in der Entwicklung von Unternehmensanwendungen. Derzeit in Deutschland ansässig und im Masterstudium Software Engineering an der Hochschule Heilbronn. Spezialisiert auf die Modernisierung von Altsystemen, Leistungsoptimierung und Teamleitung in multikulturellen, verteilten Teams. Fundierte Kenntnisse in .NET, React und Azure-Cloud-Technologien, mit nachweislicher Erfahrung in der Stabilisierung von Altsystemen und der Reduzierung der Fehlererkennungszeit von Stunden auf Minuten. Fließend in Englisch mit ausbaufähigen Deutschkenntnissen, engagiert für eine langfristige Karriere in Deutschland.",
+  "experience": [
+    {
+      "org": "Reveation Labs",
+      "dates": "Dez. 2022 - März 2025",
+      "role": "Softwareentwickler III (Full Stack)",
+      "location": "Remote, Indien",
+      "bullets": [
+        "Entwarf ein Echtzeit-System zur Gesundheitsüberwachung mit React, Microservices, geplanten Aufgaben und Azure Workbooks. Dadurch wurden die Fehlererkennungszeiten von 8-10 Stunden auf 10-15 Minuten über mehr als 50 globale Anwendungen hinweg reduziert und die Reaktionsfähigkeit des Unternehmens verbessert.",
+        "Stabilisierte ein altes Abonnementverwaltungssystem, das 50.000 Anbieter und 1 Million internationale Mitglieder bedient. Reduzierte Support-Tickets durch eine systematische Problemlösung um etwa 30 % im Laufe des folgenden Jahres.",
+        "Modernisierte Altsysteme durch Umstellung von TFS auf Git, Aktualisierung von Framework-Versionen und Implementierung automatisierter CI/CD-Pipelines für schnellere und zuverlässigere Bereitstellungen.",
+        "Arbeitete mit Kollegen zusammen, um Microservices mit .NET 8, RabbitMQ und Web-APIs zu implementieren. Restrukturierte Legacy-Anwendungen, um die Verarbeitung von Mitgliederabonnements und die Systemskalierbarkeit zu verbessern.",
+        "Leitete das Team während der PI-Planung, identifizierte wichtige Herausforderungen, schlug umsetzbare Lösungen vor und dokumentierte Strategien zur Verbesserung der Abstimmung und Effizienz zwischen Geschäfts- und IT-Teams; betreute dabei 4-5 Junior-Entwickler.",
+        "Entwickelte neue Funktionen für ältere Windows-Anwendungen mit C# und wartete gleichzeitig wichtige Funktionen in älteren VB-basierten Apps, um die Systemstabilität zu gewährleisten und die Benutzererfahrung zu verbessern."
+      ]
+    },
+    {
+      "org": "Tark Technologies LLP",
+      "dates": "Dez. 2017 - Dez. 2022",
+      "role": "Junior Softwareentwickler, befördert zum Senior (2020)",
+      "location": "Rajkot, Indien",
+      "bullets": [
+        "Entwickelte einen internen Alexa-Skill vollständig (Backend und Frontend) während der Sprachassistenten-Welle 2018 und verwaltete dessen Content-Pipeline.",
+        "Modernisierte ein stark frequentiertes, mehrrollenfähiges POS-Portal von AngularJS über eine Hybridarchitektur zu Angular; verantwortete Backend-Services und Stored Procedures für 50.000 Bestellungen in den saisonalen Sommerspitzen.",
+        "Baute ein ERP-System einer Reha-Einrichtung von klassischem ASP auf Angular um, modernisierte das Backend und verwaltete Aufnahme, Therapieplanung und Abrechnung gegenüber Partnerstiftungen für 300-400 gleichzeitige Patienten.",
+        "Digitalisierte die papierbasierte Erfassung eines Gentestlabors mit einem React-Frontend über ein Multi-Stack-Backend und entwickelte die ETL-Pipeline für einen langfristigen Patientengesundheitsdatenspeicher über 150-180 Partnerkliniken.",
+        "Befördert zum Senior im Jahr 2020; führte Code-Reviews und Pair-Programming-Sitzungen durch und coachte 4-5 Junior-Entwickler."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Hochschule Heilbronn - Deutschland",
+      "dates": "März 2025 - Heute",
+      "degree": "Master of Science in Software Engineering and Management",
+      "location": "Heilbronn, Deutschland",
+      "note": ""
+    },
+    {
+      "institution": "Gujarat Technological University - Indien",
+      "dates": "2013 - 2017",
+      "degree": "Bachelor of Engineering in Informatik und Ingenieurwesen",
+      "location": "Ahmedabad, Indien",
+      "note": "CGPA - 8.24"
+    }
+  ],
+  "skills": [
+    { "label": "Programmierung", "value": "C#, JavaScript, TypeScript, SQL, Python" },
+    { "label": "Frameworks", "value": ".NET, React.js, Angular, Entity Framework" },
+    { "label": "Datenbanken", "value": "SQL Server, MySQL, MongoDB" },
+    { "label": "Tools", "value": "Azure, Docker, Git, CI/CD, RabbitMQ" },
+    { "label": "Methoden", "value": "Agile/Scrum, Microservices" },
+    { "label": "Sprachen", "value": "Englisch (Fließend), Deutsch (A1), Hindi (Muttersprache), Gujarati (Muttersprache)" }
+  ],
+  "certifications": [
+    {
+      "name": "Python 3 Programmierung",
+      "provider": "Coursera",
+      "url": "https://coursera.org/share/ff34d909a15ffa2eec59e366533731b1"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Persönliche Website & stets aktueller Lebenslauf",
+      "subtitle": "Design, Entwicklung, Automatisierung",
+      "dates": "2025 - Heute",
+      "org": "github.com/drshnmaniar",
+      "orgUrl": "https://github.com/drshnmaniar/drshnmaniar.github.io",
+      "bullets": [
+        "Entwickelte ein React-Portfolio mit allen Inhalten in einer einzigen JSON-Datei, sodass Textänderungen nie den Komponentencode berühren.",
+        "Richtete eine GitHub-Actions-Pipeline ein, die den englischen und deutschen Lebenslauf bei jedem Push aus LaTeX kompiliert und die herunterladbaren PDFs stets aktuell hält.",
+        "Open Source; das Repository dient zugleich als überprüfbare, praktische Arbeitsprobe."
+      ]
+    },
+    {
+      "title": "Akzeptanz von KI-Tools in der akademischen Forschung",
+      "subtitle": "Studienprojekt (1. Semester)",
+      "dates": "Apr. 2025 - Juli 2025",
+      "org": "Hochschule Heilbronn",
+      "orgUrl": "",
+      "bullets": [
+        "Entwarf und implementierte eine strukturierte Umfragemethodik, die innerhalb von 29 Tagen 36 Antworten sammelte, um User-Experience-Muster und Adoptionsbarrieren für KI-Tools in Forschungsabläufen zu analysieren.",
+        "Führte statistische Analysen und thematische Kodierungen quantitativer und Freitext-Daten mit deskriptiver Statistik und manuellen Analysetechniken durch.",
+        "Stellte fest, dass 78 % der Befragten Produktivitätssteigerungen berichteten, während Zuverlässigkeitslücken ihr Vertrauen in die Tools untergruben.",
+        "Lieferte umsetzbare Erkenntnisse zu Tool-Fragmentierung, Preismodellen und Workflow-Optimierung, die in Empfehlungen für eine Plattformkonsolidierung einflossen."
+      ]
+    },
+    {
+      "title": "Modernisierung von Altsystemen & DevOps Transformation",
+      "subtitle": "Leitender Entwickler",
+      "dates": "Dez. 2024 - Jan. 2025",
+      "org": "Reveation Labs",
+      "orgUrl": "",
+      "bullets": [
+        "Leitete die Migration von Legacy-VB-Anwendungen von TFS zu Git, aktualisierte .NET-Framework-Versionen und modernisierte Entwicklungsabläufe für verbesserte Wartbarkeit.",
+        "Entwarf eine modulare NuGet-Paketstrategie, die monolithische Legacy-Module in wiederverwendbare Komponenten umwandelte und Versionsinkonsistenzen über mehr als 200 Anwendungen hinweg beseitigte.",
+        "Implementierte eine CI/CD-Pipeline mit automatisierten Code-Reviews und einer manuellen Testphase, wodurch die Bereitstellungszeit von 2-3 Stunden auf etwa 1 Stunde reduziert und konsistente Code-Qualitätsstandards in den Entwicklungsteams etabliert wurden."
+      ]
+    },
+    {
+      "title": "Dashboard zur Systemüberwachung",
+      "subtitle": "Senior Full-Stack-Entwickler",
+      "dates": "Juni 2024 - Dez. 2024",
+      "org": "Reveation Labs",
+      "orgUrl": "",
+      "bullets": [
+        "Entwarf eine umfassende Überwachungslösung für über 200 geschäftskritische Produktionssysteme, eliminierte das reaktive Störungsmanagement und stellte die Geschäftskontinuität sicher.",
+        "Entwickelte ein Echtzeit-Dashboard mit intelligentem Alarmsystem, das die Mean Time to Detection (MTTD) von Stunden auf Minuten reduzierte und sich direkt auf die Kundenzufriedenheit auswirkte.",
+        "Implementierte ein automatisiertes Benachrichtigungssystem mit kontextbezogener Fehleranalyse, was eine schnellere Identifizierung der Grundursache und eine proaktivere Störungsbehebung ermöglichte.",
+        "Lieferte eine proaktive Überwachungslösung, die das Betriebsmodell von kundengemeldeten Problemen auf vorausschauende Wartung umstellte.",
+        "Arbeitete mit funktionsübergreifenden Teams über mehrere Zeitzonen hinweg zusammen, um eine nahtlose Integration in die bestehende Unternehmensinfrastruktur sicherzustellen."
+      ]
+    }
+  ]
+}

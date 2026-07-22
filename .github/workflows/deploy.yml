@@ -26,6 +26,19 @@ jobs:
         with:
           enablement: true
 
+      # ---- CV content is single-sourced: one template.tex.j2 + cv.<lang>.json
+      #      are rendered into main.tex / main_de.tex before compiling. ----
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Render CV LaTeX from JSON
+        run: |
+          pip install "jinja2>=3.1"
+          python build.py
+        working-directory: LaTex
+
       # ---- LaTeX → PDF: the CV is always compiled fresh from source ----
       - name: Compile CV (English)
         uses: xu-cheng/latex-action@v3
