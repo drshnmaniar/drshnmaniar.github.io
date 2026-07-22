@@ -36,7 +36,7 @@ After each task: re-run the whole pipeline, update the checkboxes, commit with m
 - [x] **C1** One canonical application count. Today: "50+ global applications" (experience) vs "200+ applications" (modernization project) vs "200+ mission-critical production systems" (monitoring project). Pick the defensible number(s), and if 50 and 200 measure different things, each occurrence must say *what* it counts.
 - [x] **C2** One canonical detection-time claim. Today: "8-10 hours to 10-15 minutes" (experience) vs "hours to minutes" (monitoring project). Same event → same figures, or the duplicate is removed (see S1).
 - [ ] **C3** No verbatim-duplicated achievements between Experience and Projects. Grep test: no sentence stem (≥6 consecutive words) appears in both sections.
-- [ ] **C4** "Mentored/coached 4-5 junior developers" appears at most once per employer and is phrased differently if it appears twice at all.
+- [x] **C4** "Mentored/coached 4-5 junior developers" appears at most once per employer and is phrased differently if it appears twice at all.
 - [x] **C5** Modernization project period "Dec 2024 - Jan 2025" either carries the real program span or the 6-week claim is scoped to what actually happened in 6 weeks. 200+ apps in 6 weeks fails the sniff test.
 - [ ] **C6** Every number survives "how did you measure that?" — flag any % or count with no stated scope/window.
 - [ ] **C7** EN and DE make identical factual claims (same numbers, same dates, same counts).
@@ -109,6 +109,7 @@ Each row records what a reviewer would notice changed, not the mechanical diff (
 | v5 | T5 | 2026-07-22 | The Legacy Modernization project is gone too, and with it the "200+ apps in six weeks" claim — resolved by deletion rather than by inventing a program span. Its two real facts moved into Experience as dated bullets: deployment time 2-3 hours to about 1 hour, and monolithic modules converted to versioned NuGet packages across the 200+ application estate. Projects is now employer-free: Personal Site and the AI research study. | C3, C5, S1 |
 | v6 | T6 | 2026-07-22 | Summary cut from five rendered lines to three in both languages. Gone: the tech-stack list (Skills already has it), the language levels (ditto), the M.Sc. restatement (Education has it), and the imprecise "hours to minutes" echo. Kept: 7+ years, the modernization specialism stated as what it actually does, and the intent to stay in Germany. | S3 |
 | v7 | T7 | 2026-07-22 | Filler pass over every remaining bullet in both languages. "Collaborated with peers to implement microservices ... to enhance scalability" became "Built .NET 8 microservices with RabbitMQ and Web API to restructure member subscription processing"; the PI-planning bullet lost three clauses of process narration; "ensuring system stability and enhancing user experience" and "through a systematic problem-solving approach" are gone. Every bullet now ends on a fact, not an adjective. | L1, L2 |
+| v8 | T8 | 2026-07-22 | Both employers claimed "4-5 junior developers", which read copy-pasted. Reveation keeps the headcount; Tark now claims the practice instead — owning code review and pair programming after the 2020 promotion. "4-5" appears exactly once per language. | C4 |
 
 Rules for the agent filling this in:
 - One row per task, appended in the same commit as the task itself.

@@ -39,7 +39,7 @@
         "Modernized a high-traffic, multi-role POS portal from AngularJS through a hybrid architecture to Angular; owned back-end services and stored procedures supporting 50K orders across peak summer seasons.",
         "Rebuilt a rehabilitation-facility ERP from classic ASP to Angular, modernizing the back-end and handling enrollment, therapy scheduling, and billing to partner foundations for 300-400 concurrent patients.",
         "Digitized a gene-testing lab's paper-based intake with a React front-end over a multi-stack back-end, and built the ETL pipeline feeding a long-term patient health-data store across 150-180 partner clinics.",
-        "Promoted to Senior in 2020; ran code reviews and pair programming sessions and coached 4-5 junior developers."
+        "Promoted to Senior in 2020; owned code review and pair programming for the team's junior developers from then on."
       ]
     }
   ],
