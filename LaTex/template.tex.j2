@@ -1,0 +1,204 @@
+\documentclass[a4paper,11pt]{article}
+
+% Essential packages
+\usepackage{xcolor}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{mathptmx}
+\BLOCK{if lang == 'de'}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\BLOCK{endif}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\BLOCK{if lang == 'de'}
+\usepackage{multicol}
+\usepackage{graphicx}
+\BLOCK{endif}
+
+% Page geometry settings
+\geometry{left=1.4cm, top=1cm, right=1.2cm, bottom=1cm}
+\BLOCK{if lang == 'de'}
+\setlength{\multicolsep}{0pt}
+\BLOCK{endif}
+
+%----------------------------------------------------------------------------------------
+%	CUSTOM COMMANDS
+%----------------------------------------------------------------------------------------
+
+% Basic formatting
+\urlstyle{same}
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+    \vspace{-4pt}\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
+
+% Experience/education heading — title left, meta right, no tables (ATS-friendly).
+% Local \rightskip=0pt cancels the global \raggedright so \hfill pushes flush right.
+\newcommand{\resumeSubheading}[4]{%
+\vspace{0.5mm}\item
+    {\rightskip=0pt\relax
+     \textbf{#1}\hfill\textit{\footnotesize{#4}}\\
+     \textit{\footnotesize{#3}}\hfill\footnotesize{#2}\par}%
+    \vspace{-2.4mm}
+}
+
+% Project heading — title left, dates right / role left, org right.
+\newcommand{\resumeProject}[4]{%
+\vspace{0.5mm}\item
+    {\rightskip=0pt\relax
+     \textbf{#1}\hfill\textit{\footnotesize{#3}}\\
+     \footnotesize{\textit{#2}}\hfill\footnotesize{#4}\par}%
+    \vspace{-2.4mm}
+}
+
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=0mm]}
+\newcommand{\resumeItemListStart}{\begin{justify}\begin{itemize}[leftmargin=3ex, rightmargin=2ex, noitemsep,labelsep=1.2mm,itemsep=0mm]\small}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\end{justify}\vspace{-2mm}}
+%---- End of Packages and Functions ------
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%
+%%%%%% DEFINE ELEMENTS HERE %%%%%%%
+\newcommand{\name}{Darshan Maniar} % Your Name
+\newcommand{\phone}{155 10826517} % Your Phone Number
+\newcommand{\emaila}{drshnmaniar@gmail.com} %Email 1
+\newcommand{\address}{74081, Heilbronn} %Email 1
+
+\begin{document}
+% \fontfamily{cmr}\selectfont
+
+\BLOCK{if lang == 'de'}
+% Header section
+\begin{multicols}{2}
+    \columnsep=2cm
+    \textbf{\huge \name} \\[0.3em]
+    \VAR{ header.title | tex } \\[0.2em]
+    \VAR{ labels.address } \VAR{ header.address | tex } \\[0.2em]
+    \VAR{ labels.phone } +49-155 10826517 \\[0.2em]
+    \VAR{ labels.email } \href{mailto:drshnmaniar@gmail.com}{drshnmaniar@gmail.com} \\[0.2em]
+    \VAR{ labels.github } \href{https://github.com/drshnmaniar}{github.com/drshnmaniar} \\[0.2em]
+    \VAR{ labels.linkedin } \href{https://www.linkedin.com/in/drshnmaniar}{linkedin.com/in/drshnmaniar} \\[0.2em]
+    \VAR{ labels.website } \href{https://drshnmaniar.github.io}{drshnmaniar.github.io} \\[0.2em]
+    \VAR{ header.nationality | tex }
+
+    \columnbreak
+
+    \begin{flushright}
+    {\includegraphics[width=3.6cm]{darshan_square.png}}
+    \end{flushright}
+\end{multicols}
+\BLOCK{else}
+% Header (single column, no photo — ATS-friendly)
+\begin{center}
+    {\huge \textbf{\name}} \\[0.4em]
+    \VAR{ header.title | tex } \\[0.35em]
+    \VAR{ header.address | tex } \enspace|\enspace +49-155 10826517 \enspace|\enspace \href{mailto:drshnmaniar@gmail.com}{drshnmaniar@gmail.com} \\[0.25em]
+    \href{https://github.com/drshnmaniar}{github.com/drshnmaniar} \enspace|\enspace \href{https://www.linkedin.com/in/drshnmaniar}{linkedin.com/in/drshnmaniar} \enspace|\enspace \href{https://drshnmaniar.github.io}{drshnmaniar.github.io} \\[0.25em]
+    \VAR{ header.nationality | tex | pipe_enspace }
+\end{center}
+\BLOCK{endif}
+
+\vspace{-2.5mm}
+%-----------Technical skills-----------------
+\section{\textbf{\VAR{ labels.summary | tex }}}
+
+ \begin{itemize}[leftmargin=0.05in, label={}]
+    \small\item {\VAR{ summary | tex }}
+ \end{itemize}
+ \vspace{-16pt}
+%-----------EXPERIENCE-----------------
+\section{\textbf{\VAR{ labels.experience | tex }}}
+\pagebreak[3]
+  \resumeSubHeadingListStart
+  \vspace{-1 mm}
+\BLOCK{for e in experience}
+    \pagebreak[2]
+    \resumeSubheading
+      {\VAR{ e.org | tex }}{\VAR{ e.dates | tex }}
+      {\VAR{ e.role | tex }}{\VAR{ e.location | tex }}
+      \vspace{-1.0mm}
+      \resumeItemListStart
+\BLOCK{for b in e.bullets}
+    \item {\VAR{ b | tex }}
+\BLOCK{endfor}
+    \resumeItemListEnd
+
+    \vspace{-3 mm}
+
+\BLOCK{endfor}
+  \resumeSubHeadingListEnd
+\vspace{-8.5mm}
+
+\vspace{2.5 mm}
+%-----------PROJECTS-----------------
+%-----------EDUCATION-----------
+\section{\textbf{\VAR{ labels.education | tex }}}
+\pagebreak[3]
+  \resumeSubHeadingListStart
+  \vspace{-1 mm}
+\BLOCK{for e in education}
+    \pagebreak[2]
+    \resumeSubheading
+      {\VAR{ e.institution | tex }}{\VAR{ e.dates | tex }}
+      {\VAR{ e.degree | tex }\BLOCK{if e.note} {\bf (\VAR{ e.note | tex })}\BLOCK{endif}}{\VAR{ e.location | tex }}
+\BLOCK{endfor}
+  \resumeSubHeadingListEnd
+\vspace{-5.5mm}
+
+\section{\textbf{\VAR{ labels.skills | tex }}}
+\pagebreak[3]
+\begin{itemize}[leftmargin=0.05in, label={}]
+    \small\item{
+\BLOCK{for s in skills}
+     \textbf{\VAR{ s.label | tex }}{: \VAR{ s.value | tex }}\\
+\BLOCK{endfor}
+    }
+\end{itemize}
+\vspace{-4.5 mm}
+\vspace{0.5 mm}
+
+\section{\textbf{\VAR{ labels.certification | tex }}}
+\pagebreak[3]
+ \begin{itemize}[leftmargin=0.05in, label={}]
+    \small\item{
+\BLOCK{for c in certifications}
+     \textbf{\VAR{ c.name | tex }}{: \href{\VAR{ c.url }}{\VAR{ c.provider | tex }}}
+\BLOCK{endfor}
+    }
+ \end{itemize}
+\vspace{-4.5mm}
+
+\vspace{0.5 mm} % Adjust the vertical space as needed
+
+\section{\textbf{\VAR{ labels.projects | tex }}}
+\pagebreak[3]
+\resumeSubHeadingListStart
+\BLOCK{for p in projects}
+    \vspace{-1 mm}
+    \pagebreak[2]
+    \resumeProject
+      {\VAR{ p.title | tex }}{\VAR{ p.subtitle | tex }}{\VAR{ p.dates | tex }}{\BLOCK{if p.orgUrl}\href{\VAR{ p.orgUrl }}{\VAR{ p.org | tex }}\BLOCK{else}\VAR{ p.org | tex }\BLOCK{endif}}
+      \resumeItemListStart
+\BLOCK{for b in p.bullets}
+       \item {\VAR{ b | tex }}
+\BLOCK{endfor}
+    \resumeItemListEnd
+    \vspace{-2 mm}
+
+\BLOCK{endfor}
+  \resumeSubHeadingListEnd
+\vspace{-5.5mm}
+
+\vspace{-1 mm}
+\end{document}
