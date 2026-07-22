@@ -21,12 +21,12 @@
       "location": "Remote, India",
       "bullets": [
         "Architected a real-time health monitoring system (React, .NET microservices, scheduled jobs, Azure Workbooks) covering the 50+ applications in the global production estate; cut failure detection from 8-10 hours to 10-15 minutes and shipped alerts carrying contextual error detail for faster root-cause identification.",
-        "Stabilized a legacy subscription management system serving 50K vendors and 1 million international members, reducing support tickets by roughly 30% over the following year through a systematic problem-solving approach.",
+        "Stabilized a legacy subscription management system serving 50K vendors and 1 million international members, cutting support tickets by roughly 30% over the following year.",
         "Drove the TFS-to-Git migration, .NET framework upgrades, and automated CI/CD across the legacy estate, cutting deployment time from 2-3 hours to about 1 hour.",
         "Converted monolithic legacy modules into versioned NuGet packages, eliminating version inconsistencies across the 200+ applications in the estate.",
-        "Collaborated with peers to implement microservices using .NET 8, RabbitMQ, and Web API, restructuring legacy applications to enhance member subscription processing and system scalability.",
-        "Led the team during PI planning, identifying key challenges, proposing actionable solutions, and documenting strategies to improve alignment and efficiency between business and IT teams, while mentoring 4-5 junior developers.",
-        "Developed new features for legacy Windows applications using C#, while maintaining and fixing critical functionality in older VB-based apps, ensuring system stability and enhancing user experience."
+        "Built .NET 8 microservices with RabbitMQ and Web API to restructure member subscription processing.",
+        "Led the team through PI planning, turning business requirements into delivery commitments and documenting the trade-offs behind them; mentored 4-5 junior developers.",
+        "Shipped features into legacy C# Windows applications and kept the older VB-based apps running."
       ]
     },
     {
@@ -90,7 +90,7 @@
         "Designed and deployed a structured survey methodology collecting 36 responses across 29 days, analyzing user experience patterns and adoption barriers for AI tools in research workflows",
         "Performed statistical analysis and thematic coding of quantitative and free-text data using descriptive statistics and manual analysis techniques",
         "Found that 78% of respondents reported productivity gains, while reliability gaps were eroding their trust in the tools",
-        "Delivered actionable insights on tool fragmentation, pricing models, and workflow optimization that informed recommendations for platform consolidation"
+        "Reported findings on tool fragmentation, pricing models, and workflow friction, with recommendations for consolidating on fewer tools"
       ]
     }
   ]

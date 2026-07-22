@@ -21,12 +21,12 @@
       "location": "Remote, Indien",
       "bullets": [
         "Entwarf ein Echtzeit-System zur Zustandsüberwachung (React, .NET-Microservices, geplante Jobs, Azure Workbooks) für die über 50 Anwendungen des globalen Produktionsbestands; senkte die Fehlererkennungszeit von 8-10 Stunden auf 10-15 Minuten und lieferte Alarme mit kontextbezogenen Fehlerdetails für eine schnellere Ursachenanalyse.",
-        "Stabilisierte ein altes Abonnementverwaltungssystem, das 50.000 Anbieter und 1 Million internationale Mitglieder bedient. Reduzierte Support-Tickets durch eine systematische Problemlösung um etwa 30 % im Laufe des folgenden Jahres.",
+        "Stabilisierte ein Alt-Abonnementsystem mit 50.000 Anbietern und 1 Million internationalen Mitgliedern und senkte die Zahl der Support-Tickets im Folgejahr um etwa 30 %.",
         "Trieb die Migration von TFS zu Git, die Aktualisierung der .NET-Framework-Versionen und automatisierte CI/CD-Pipelines im gesamten Altsystembestand voran und senkte die Bereitstellungszeit von 2-3 Stunden auf etwa 1 Stunde.",
         "Überführte monolithische Legacy-Module in versionierte NuGet-Pakete und beseitigte Versionsinkonsistenzen über die mehr als 200 Anwendungen des Bestands hinweg.",
-        "Arbeitete mit Kollegen zusammen, um Microservices mit .NET 8, RabbitMQ und Web-APIs zu implementieren. Restrukturierte Legacy-Anwendungen, um die Verarbeitung von Mitgliederabonnements und die Systemskalierbarkeit zu verbessern.",
-        "Leitete das Team während der PI-Planung, identifizierte wichtige Herausforderungen, schlug umsetzbare Lösungen vor und dokumentierte Strategien zur Verbesserung der Abstimmung und Effizienz zwischen Geschäfts- und IT-Teams; betreute dabei 4-5 Junior-Entwickler.",
-        "Entwickelte neue Funktionen für ältere Windows-Anwendungen mit C# und wartete gleichzeitig wichtige Funktionen in älteren VB-basierten Apps, um die Systemstabilität zu gewährleisten und die Benutzererfahrung zu verbessern."
+        "Entwickelte .NET-8-Microservices mit RabbitMQ und Web-API, um die Verarbeitung von Mitgliederabonnements neu aufzubauen.",
+        "Führte das Team durch die PI-Planung, übersetzte fachliche Anforderungen in verbindliche Liefertermine und dokumentierte die zugrunde liegenden Abwägungen; betreute 4-5 Junior-Entwickler.",
+        "Lieferte neue Funktionen in bestehende C#-Windows-Anwendungen und hielt die älteren VB-Anwendungen im Betrieb."
       ]
     },
     {
@@ -90,7 +90,7 @@
         "Entwarf und implementierte eine strukturierte Umfragemethodik, die innerhalb von 29 Tagen 36 Antworten sammelte, um User-Experience-Muster und Adoptionsbarrieren für KI-Tools in Forschungsabläufen zu analysieren.",
         "Führte statistische Analysen und thematische Kodierungen quantitativer und Freitext-Daten mit deskriptiver Statistik und manuellen Analysetechniken durch.",
         "Stellte fest, dass 78 % der Befragten Produktivitätssteigerungen berichteten, während Zuverlässigkeitslücken ihr Vertrauen in die Tools untergruben.",
-        "Lieferte umsetzbare Erkenntnisse zu Tool-Fragmentierung, Preismodellen und Workflow-Optimierung, die in Empfehlungen für eine Plattformkonsolidierung einflossen."
+        "Berichtete Befunde zu Tool-Fragmentierung, Preismodellen und Reibungsverlusten im Arbeitsablauf, mit Empfehlungen zur Konsolidierung auf weniger Werkzeuge."
       ]
     }
   ]

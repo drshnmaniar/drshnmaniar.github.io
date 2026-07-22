@@ -49,8 +49,8 @@ After each task: re-run the whole pipeline, update the checkboxes, commit with m
 - [ ] **S5** Both PDFs ≤ 2 pages; no orphaned headers (layout gate).
 
 ### C. Language / signal
-- [ ] **L1** Zero filler adjectives in bullets: comprehensive, intelligent, seamless, robust, cutting-edge, mission-critical (unless counting something), "ensuring business continuity", "directly impacting customer satisfaction". Grep for each.
-- [ ] **L2** Every bullet = verb + what + scale/outcome. No bullet ends in an unverifiable outcome clause.
+- [x] **L1** Zero filler adjectives in bullets: comprehensive, intelligent, seamless, robust, cutting-edge, mission-critical (unless counting something), "ensuring business continuity", "directly impacting customer satisfaction". Grep for each.
+- [x] **L2** Every bullet = verb + what + scale/outcome. No bullet ends in an unverifiable outcome clause.
 - [ ] **L3** Work-authorization line states the concrete entitlement (e.g. "20 h/week during semester, full-time during breaks; unrestricted from early 2027"), not just "German Student Visa".
 - [ ] **L4** AI-research bullets claim what a coursework survey can claim: "78% of respondents reported gains" style, no "delivered actionable insights … platform consolidation" fluff.
 - [ ] **L5** DE text is idiomatic German, not translated English (spot-check by native speaker or LLM pass with that explicit instruction).
@@ -108,6 +108,7 @@ Each row records what a reviewer would notice changed, not the mechanical diff (
 | v4 | T4 | 2026-07-22 | The System Health Monitoring Dashboard project is gone: four of its five bullets restated the Experience bullet describing the same system, and the fifth was cross-team filler. Its one net-new detail — alerts carrying contextual error data for root-cause work — folded into that Experience bullet. | — (C3 partial) |
 | v5 | T5 | 2026-07-22 | The Legacy Modernization project is gone too, and with it the "200+ apps in six weeks" claim — resolved by deletion rather than by inventing a program span. Its two real facts moved into Experience as dated bullets: deployment time 2-3 hours to about 1 hour, and monolithic modules converted to versioned NuGet packages across the 200+ application estate. Projects is now employer-free: Personal Site and the AI research study. | C3, C5, S1 |
 | v6 | T6 | 2026-07-22 | Summary cut from five rendered lines to three in both languages. Gone: the tech-stack list (Skills already has it), the language levels (ditto), the M.Sc. restatement (Education has it), and the imprecise "hours to minutes" echo. Kept: 7+ years, the modernization specialism stated as what it actually does, and the intent to stay in Germany. | S3 |
+| v7 | T7 | 2026-07-22 | Filler pass over every remaining bullet in both languages. "Collaborated with peers to implement microservices ... to enhance scalability" became "Built .NET 8 microservices with RabbitMQ and Web API to restructure member subscription processing"; the PI-planning bullet lost three clauses of process narration; "ensuring system stability and enhancing user experience" and "through a systematic problem-solving approach" are gone. Every bullet now ends on a fact, not an adjective. | L1, L2 |
 
 Rules for the agent filling this in:
 - One row per task, appended in the same commit as the task itself.
