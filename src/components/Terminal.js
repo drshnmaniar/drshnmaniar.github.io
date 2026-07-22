@@ -62,7 +62,7 @@ function runCommand(raw) {
         " |      |]",
         " \\      /",
         "  `----'",
-        "ok: chai brewed. productivity +78%.",
+        "ok: chai brewed. productivity +∞%.",
       ];
     case "sudo":
       if (args.join(" ") === "hire-me" || args.join(" ") === "hire me") {
