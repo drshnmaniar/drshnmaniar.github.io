@@ -178,7 +178,7 @@
     "Frameworks": [".NET", "React", "Angular", "Entity Framework"],
     "Databases": ["SQL Server", "MySQL", "MongoDB"],
     "Cloud & Tools": ["Azure", "Azure DevOps", "Docker", "Git", "CI/CD", "RabbitMQ"],
-    "Practices": ["Agile/Scrum", "Microservices", "Legacy Modernization", "Mentoring"]
+    "Practices": ["Agile/Scrum", "Microservices", "Legacy Modernization", "Mentoring", "AI-assisted development (Claude Code)"]
   },
   "languages": [
     { "name": "English", "level": "fluent, my working language for 7+ years" },
