@@ -161,3 +161,51 @@ the 2022 journey entry rounded detection to "~8 hours to minutes" where every ot
 
 The site's voice — the tagline, "the most honest skills section on this page", the
 zero-stale-PDFs metric — was deliberately left alone. That is personality, not inflation.
+
+---
+
+## Run 3 — Website polish, 2026-07-22
+
+Source: `src/content/portfolio.json`, `src/components/Terminal.js`, `src/components/Footer.js`,
+`public/index.html`. Site-only pass — nothing here mirrors into the CV; T19 and T21 are
+deliberate site/CV divergences, explained below.
+
+### v19 · T19 — site headline title → *W7*
+
+The hero/terminal headline used the internal level "Software Engineer III (Full Stack)", which
+means nothing to a reader outside the company that assigned it. `data.role` now reads "Senior
+Full Stack Engineer". Deliberately not mirrored to the CV: the CV header and the Experience
+entries keep the actual issued title, because a formal document states what was earned, not a
+marketing headline. The site's own Experience list is untouched for the same reason.
+
+### v20 · T20 — stats tile detection figure → *W8*
+
+`data.stats` still said "down from 8+ hours" after v14/v18 unified every other mention of this
+metric to "8-10 hours to 10-15 minutes". Label now reads "down from 8-10 hours"; the tile's
+number (15) stays the range endpoint, matching the compact form already used on the monitoring
+project's metric badge.
+
+### v21 · T21 — chai joke no longer echoes the survey stat → *W9*
+
+The terminal's `chai` command joked "productivity +78%" — the same number the AI-adoption
+project claims 78% of respondents reported. Changed to "+∞%" so a real, sourced figure never
+shares a number with a throwaway joke.
+
+### v22 · T22 — footer availability now generated, not duplicated → *W10*
+
+Footer.js hardcoded its own paraphrase of `data.availability` ("Working student, internship, or
+freelance today; full-time from early 2027"), which could drift from the JSON silently. Moved
+that sentence into `portfolio.json` as `availability.footer`; the component renders it instead
+of restating it.
+
+### v23 · T23 — Azure DevOps added to Skills → *W11*
+
+The modernization project's `tech` tags named "Azure DevOps"; the Skills section's "Cloud &
+Tools" only had "Azure". Added, closing a claim the Skills section didn't back up.
+
+### v24 · T24 — stopgap social-preview image → *W12*
+
+`index.html` had `og:title`/`og:description` but no image, so shared links rendered a blank
+card. Added `og:image`, `og:type`, and `twitter:card` pointing at the existing `logo512.png`.
+This is a stopgap, not a designed 1200×630 card — that work is still open in
+[backlog.md](backlog.md) under the prerender item.
