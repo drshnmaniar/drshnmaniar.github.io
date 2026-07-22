@@ -42,7 +42,7 @@
       "place": "Remote, India",
       "title": "Software Engineer III",
       "org": "Reveation Labs",
-      "detail": "Led legacy modernization for systems serving 1M+ members. Built monitoring that cut failure detection from ~8 hours to minutes.",
+      "detail": "Led legacy modernization for systems serving 1M+ members. Built monitoring that cut failure detection from 8-10 hours to 10-15 minutes.",
       "emoji": "🚀"
     },
     {
@@ -141,7 +141,7 @@
       "pitch": "What actually happens when researchers adopt AI tools? I surveyed, measured, and found out.",
       "points": [
         "Designed and ran a structured survey: 36 responses over 29 days.",
-        "Statistical analysis and thematic coding of quantitative and free-text answers.",
+        "Descriptive statistics on the quantitative answers, hand-coded themes on the free text.",
         "78% of respondents reported productivity gains, but reliability gaps were eroding their trust in the tools."
       ],
       "metrics": [

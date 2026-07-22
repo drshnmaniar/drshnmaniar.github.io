@@ -59,8 +59,8 @@ the two differ, the site moves.
 - [x] **W2** Availability says the same thing in all four places (hero, footer, journey 2027, CV header): 20 h/week in semester, full-time in semester breaks, full-time from early 2027. No place may promise full-time *now* — the student visa does not allow it.
 - [x] **W3** No project card point restates an experience highlight. Cards carry the how and the artifact; the highlight carries the outcome. Grep test: no 6-word stem shared between `experience[].highlights` and `projects[].points`.
 - [x] **W4** No project period is narrower than the work it claims. The modernization card may not date 200+ applications to a six-week window.
-- [ ] **W5** Same filler ban as L1, applied to `portfolio.json` and the components.
-- [ ] **W6** `npm run build` exits 0 and `portfolio.json` parses.
+- [x] **W5** Same filler ban as L1, applied to `portfolio.json` and the components.
+- [x] **W6** `npm run build` exits 0 and `portfolio.json` parses.
 
 ### C. Language / signal
 - [x] **L1** Zero filler adjectives in bullets: comprehensive, intelligent, seamless, robust, cutting-edge, mission-critical (unless counting something), "ensuring business continuity", "directly impacting customer satisfaction". Grep for each.
@@ -148,6 +148,7 @@ Each row records what a reviewer would notice changed, not the mechanical diff (
 | v15 | T15 | 2026-07-22 | The modernization card dated 200+ unified applications to six weeks. Period widened to the Reveation tenure (Dec 2022 - Mar 2025, unambiguously true) and the six-week window kept where it is defensible: as the intensive migration phase, stated inside the bullet. The site keeps the card the CV dropped, because the site has room to explain it. | W4 |
 | v16 | T16 | 2026-07-22 | The site offered full-time work in three places ("full-time too, for the right team", "full-time already for the right team", "or sooner, for the right role") while the CV states a student visa capped at 20 h/week in semester. All three now state the entitlement instead: 20 h/week in semester, full-time in semester breaks, full-time from early 2027. **Reversible by choice, not by fact** — if the intent was "I would leave the programme for the right offer", that is a conversation to have in an interview, not a promise on a landing page. | W2 |
 | v17 | T17 | 2026-07-22 | Deploy-time win (2-3 h → ~1 h) carried from the CV into the site's experience highlights, and removed from the modernization card's prose so the two stop saying the same sentence — the card now explains the mechanism, the highlight states the outcome, and the number survives as the card's metric badge. NuGet packaging stays the card's centerpiece rather than being duplicated into a highlight. Tark's mentoring line got the same C4 treatment as the CV: it claims the practice, not a second "4-5 juniors". | W1, W3 |
+| v18 | T18 | 2026-07-22 | Filler sweep clean, build green. Screener pass caught two last mismatches: the research card claimed "statistical analysis" where the CV claims descriptive statistics on 36 responses, and the 2022 journey entry rounded detection to "~8 hours to minutes" where every other mention says 8-10 hours to 10-15 minutes. Both now match the CV. The site's voice (the tagline, "the most honest skills section on this page", the zero-stale-PDFs metric) was deliberately left alone — it is personality, not inflation. | W5, W6 |
 
 Rules for the agent filling this in:
 - One row per task, appended in the same commit as the task itself.
