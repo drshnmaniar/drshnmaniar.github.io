@@ -18,7 +18,7 @@
     { "value": 7, "suffix": "+", "label": "years of engineering" },
     { "value": 1, "suffix": "M+", "label": "members on systems I've maintained" },
     { "value": 200, "suffix": "+", "label": "apps in the modernization program I led" },
-    { "value": 15, "suffix": "min", "label": "failure detection, down from 8+ hours" }
+    { "value": 15, "suffix": "min", "label": "failure detection, down from 8-10 hours" }
   ],
   "journey": [
     {
