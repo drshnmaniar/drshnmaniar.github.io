@@ -176,7 +176,7 @@
     "Languages": ["C#", "JavaScript", "TypeScript", "SQL", "Python"],
     "Frameworks": [".NET", "React", "Angular", "Entity Framework"],
     "Databases": ["SQL Server", "MySQL", "MongoDB"],
-    "Cloud & Tools": ["Azure", "Docker", "Git", "CI/CD", "RabbitMQ"],
+    "Cloud & Tools": ["Azure", "Azure DevOps", "Docker", "Git", "CI/CD", "RabbitMQ"],
     "Practices": ["Agile/Scrum", "Microservices", "Legacy Modernization", "Mentoring"]
   },
   "languages": [
