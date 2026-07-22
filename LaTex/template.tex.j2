@@ -154,18 +154,6 @@
 \vspace{-4.5 mm}
 \vspace{0.5 mm}
 
-\resumeSection{\VAR{ labels.certification | tex }}
- \begin{itemize}[leftmargin=0.05in, label={}]
-    \small\item{
-\BLOCK{for c in certifications}
-     \textbf{\VAR{ c.name | tex }}{: \href{\VAR{ c.url }}{\VAR{ c.provider | tex }}}
-\BLOCK{endfor}
-    }
- \end{itemize}
-\vspace{-4.5mm}
-
-\vspace{0.5 mm} % Adjust the vertical space as needed
-
 \resumeSection{\VAR{ labels.projects | tex }}
 \resumeSubHeadingListStart
 \BLOCK{for p in projects}

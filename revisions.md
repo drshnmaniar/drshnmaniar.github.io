@@ -43,9 +43,9 @@ After each task: re-run the whole pipeline, update the checkboxes, commit with m
 
 ### B. Structure
 - [ ] **S1** Projects section contains no entry that restates an Experience bullet. Reveation projects are either merged into experience bullets or carry *only* detail not present there. Target: Projects = Personal Site, AI Research, and at most one non-duplicative Reveation entry.
-- [ ] **S2** Certification section removed (single intro Coursera cert = junior signal). `labels.certification`, `certifications[]`, and the template's certification block all gone.
+- [x] **S2** Certification section removed (single intro Coursera cert = junior signal). `labels.certification`, `certifications[]`, and the template's certification block all gone.
 - [ ] **S3** Summary ≤ 3 lines in the rendered PDF. Cut everything the CV already demonstrates.
-- [ ] **S4** Section order after S2: Summary → Experience → Education → Technical Skills → Projects.
+- [x] **S4** Section order after S2: Summary → Experience → Education → Technical Skills → Projects.
 - [ ] **S5** Both PDFs ≤ 2 pages; no orphaned headers (layout gate).
 
 ### C. Language / signal
@@ -104,6 +104,7 @@ Each row records what a reviewer would notice changed, not the mechanical diff (
 | v0 | — | 2026-07-22 | Baseline: unified EN/DE header (no photo), keep-together section guards, availability copy fixed. Known defects: 50-vs-200 app-count contradiction, duplicated Reveation projects, 5-line summary, Coursera cert section, filler adjectives. | — |
 | v1 | T1 | 2026-07-22 | The monitoring project claimed "200+ mission-critical production systems" while Experience described the same system as covering "50+ global applications". Monitoring now reads 50+ production applications in both places; the 200+ figure survives only where it belongs, scoped as "the 200+ applications in the legacy estate". | C1 |
 | v2 | T2 | 2026-07-22 | The monitoring project's vague "from hours to minutes" now carries the same 8-10 hours to 10-15 minutes figures the Experience bullet uses, so the two descriptions of one system no longer differ in precision. | C2 |
+| v3 | T3 | 2026-07-22 | The Certification section and its single introductory Coursera entry are gone — data, label, and template block. A 7-year engineer listing an intro Python cert reads junior; the section earned no space. Order is now Summary, Experience, Education, Technical Skills, Projects. | S2, S4 |
 
 Rules for the agent filling this in:
 - One row per task, appended in the same commit as the task itself.

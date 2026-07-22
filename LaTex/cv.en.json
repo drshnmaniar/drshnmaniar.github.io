@@ -5,7 +5,6 @@
     "experience": "Experience",
     "education": "Education",
     "skills": "Technical Skills",
-    "certification": "Certification",
     "projects": "Projects"
   },
   "header": {
@@ -66,13 +65,6 @@
     { "label": "Tools", "value": "Azure, Docker, Git, CI/CD, RabbitMQ" },
     { "label": "Methodologies", "value": "Agile/Scrum, Microservices" },
     { "label": "Languages", "value": "English (Fluent), German (A1), Hindi (Native), Gujarati (Native)" }
-  ],
-  "certifications": [
-    {
-      "name": "Python 3 Programming",
-      "provider": "Coursera",
-      "url": "https://coursera.org/share/ff34d909a15ffa2eec59e366533731b1"
-    }
   ],
   "projects": [
     {
