@@ -28,8 +28,6 @@ So: **edit `LaTex/cv.en.json` and `LaTex/cv.de.json`, push, and the download but
 
 Both languages use the same single-column, photo-free header — the layout is identical, so a change to `template.tex.j2` lands in both PDFs at once. The only language branch left is `babel`/`fontenc` for German hyphenation.
 
-> **One-time setup:** in the repo settings → *Pages* → set **Source** to **GitHub Actions** (instead of the old `gh-pages` branch).
-
 ## Development
 
 ```bash
@@ -70,26 +68,6 @@ LaTex/
 revisions.md              content checklist, evaluation pipeline, version log
 .github/workflows/        deploy.yml — render, compile CVs, build, deploy to Pages
 ```
-
-## Editing the content
-
-The CV and the site make the same claims to the same reader, so they are held to one standard, written down in [`revisions.md`](revisions.md): a checklist, the pipeline that verifies it, and an append-only log of what changed in each pass.
-
-The rules that bite most often:
-
-- **EN and DE move together.** Every content change lands in both `cv.en.json` and `cv.de.json` in the same commit.
-- **The CV is the reference.** Where the site and the CV disagree, the site moves.
-- **Every number states what it counts** and survives *"how did you measure that?"* — the same figure must not appear with two different values in two places.
-- **Both CVs fit one page**, with no section header stranded at the foot of a page.
-
-To verify a change:
-
-```bash
-cd LaTex && python build.py && pdflatex main.tex && pdflatex main_de.tex
-npm run build
-```
-
-Then walk the checklist in `revisions.md` and append a row to its version log.
 
 ## Tech
 
