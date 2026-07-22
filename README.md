@@ -9,7 +9,7 @@ Personal portfolio of **Darshan Maniar** — a quiet-luxury React site backed by
 - **Content lives in one file** — [`src/content/portfolio.json`](src/content/portfolio.json). Copy changes never touch component code.
 - **Always-current CV** — the English and German CVs are compiled from LaTeX by CI on every push, so the downloadable PDFs can never fall out of date.
 - **One CV layout, two languages** — both PDFs render from a single [`template.tex.j2`](LaTex/template.tex.j2); only the content differs, in [`cv.en.json`](LaTex/cv.en.json) and [`cv.de.json`](LaTex/cv.de.json).
-- **Every claim is checked** — [`revisions.md`](revisions.md) holds the checklist a claim has to pass before it ships, and the log of what changed when.
+- **Every claim is checked** — [`docs/content-standards.md`](docs/content-standards.md) is the bar a claim has to clear; [`docs/content-log.md`](docs/content-log.md) records what changed and why.
 - **Quiet-luxury design** — a restrained, editorial system (serif display, gold accent, generous whitespace) defined in [`src/style/portfolio.css`](src/style/portfolio.css).
 - **A few easter eggs** — for the curious.
 
@@ -65,7 +65,10 @@ LaTex/
   template.tex.j2         shared layout for both languages
   build.py                renders template + JSON -> main.tex, main_de.tex
   main.tex, main_de.tex   generated, gitignored — do not edit
-revisions.md              content checklist, evaluation pipeline, version log
+docs/
+  content-standards.md    the bar every claim on the CV and the site has to clear
+  content-log.md          what changed in each revision pass, and why
+  revision-loop.md        skeleton to copy when running another pass
 .github/workflows/        deploy.yml — render, compile CVs, build, deploy to Pages
 ```
 
