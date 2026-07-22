@@ -4,6 +4,23 @@ The rules the CV and the site are held to. These outlast any particular revision
 loop starts by copying these rows, not by inventing them. History of how they were applied:
 [content-log.md](content-log.md).
 
+## Positioning
+
+The frame the copy is written to, and the reason the availability rules below are so specific.
+
+Seven years of experience at working-student cost is a **try-before-you-hire offer** — the
+cheapest senior-level trial an employer will get. So the CV and the site say plainly: work with me
+now (Werkstudent, internship, freelance), hire me full-time from early 2027. Stating it outright
+answers *"why is a 7-year engineer a student?"* before a screener has to wonder, and turns
+"overqualified" into a reason to move.
+
+The corollary: **vagueness about availability is the expensive mistake here**, not
+over-specificity. A recruiter who cannot tell what they may offer moves on.
+
+The German-progress tracker on the site stays for the same reason. It signals the thing German
+employers quietly screen internationals for — intent to stay — and A1 stated honestly does that
+better than silence.
+
 ## Sources of truth
 
 | What | Lives in | Notes |
@@ -48,6 +65,8 @@ commit. **The CV is the reference**: where the site and the CV disagree, the sit
   impacting customer satisfaction", "actionable insights". German equivalents likewise: umfassend,
   nahtlos, geschäftskritisch, "umsetzbare Erkenntnisse".
 - Every bullet is **verb + what + scale or outcome**, and ends on a fact rather than an adjective.
+- For any role, **one named system + one scale number + one hard problem** beats any amount of
+  "delivered high-quality maintainable software".
 - Coursework claims what **coursework can claim**: "78% of respondents reported gains", not "78%
   productivity gains".
 - The German is **written, not translated** — no calques, no split-verb errors, standard German IT
