@@ -12,7 +12,7 @@
     "address": "74081, Heilbronn",
     "nationality": "Nationalität: Indisch | Studentenvisum: 20 Std./Woche, Vollzeit in den Semesterferien | Vollzeit ab Anfang 2027"
   },
-  "summary": "Full-Stack-Entwickler mit über 7 Jahren Erfahrung in .NET- und React-Systemen, spezialisiert auf die Modernisierung von Altsystemen: stabilisiert Plattformen, die andere meiden, und macht Störungen sichtbar, bevor Kunden sie melden. Masterstudent an der Hochschule Heilbronn mit dem Ziel einer langfristigen Karriere in Deutschland.",
+  "summary": "Full-Stack-Entwickler mit über 7 Jahren Erfahrung in .NET- und React-Systemen. Schwerpunkt Altsystem-Modernisierung: Plattformen stabilisieren, die andere Teams meiden, und Störungen sichtbar machen, bevor Kunden sie melden. Masterstudent an der Hochschule Heilbronn mit dem Ziel einer langfristigen Karriere in Deutschland.",
   "experience": [
     {
       "org": "Reveation Labs",
@@ -20,13 +20,13 @@
       "role": "Softwareentwickler III (Full Stack)",
       "location": "Remote, Indien",
       "bullets": [
-        "Entwarf ein Echtzeit-System zur Zustandsüberwachung (React, .NET-Microservices, geplante Jobs, Azure Workbooks) für die über 50 Anwendungen des globalen Produktionsbestands; senkte die Fehlererkennungszeit von 8-10 Stunden auf 10-15 Minuten und lieferte Alarme mit kontextbezogenen Fehlerdetails für eine schnellere Ursachenanalyse.",
-        "Stabilisierte ein Alt-Abonnementsystem mit 50.000 Anbietern und 1 Million internationalen Mitgliedern und senkte die Zahl der Support-Tickets im Folgejahr um etwa 30 %.",
-        "Trieb die Migration von TFS zu Git, die Aktualisierung der .NET-Framework-Versionen und automatisierte CI/CD-Pipelines im gesamten Altsystembestand voran und senkte die Bereitstellungszeit von 2-3 Stunden auf etwa 1 Stunde.",
-        "Überführte monolithische Legacy-Module in versionierte NuGet-Pakete und beseitigte Versionsinkonsistenzen über die mehr als 200 Anwendungen des Bestands hinweg.",
+        "Konzipierte ein Echtzeit-System zur Systemüberwachung (React, .NET-Microservices, geplante Jobs, Azure Workbooks) für über 50 Anwendungen der globalen Produktionslandschaft; senkte die Fehlererkennungszeit von 8-10 Stunden auf 10-15 Minuten und versah Alarme mit kontextbezogenen Fehlerdetails für eine schnellere Ursachenanalyse.",
+        "Stabilisierte ein Legacy-System zur Abonnementverwaltung mit 50.000 Anbietern und 1 Mio. internationalen Mitgliedern und senkte die Zahl der Support-Tickets im Folgejahr um rund 30 %.",
+        "Verantwortete die Migration von TFS zu Git, die Aktualisierung der .NET-Framework-Versionen und automatisierte CI/CD-Pipelines in der gesamten Altsystemlandschaft; die Bereitstellungszeit sank von 2-3 Stunden auf etwa 1 Stunde.",
+        "Überführte monolithische Legacy-Module in versionierte NuGet-Pakete und beseitigte damit Versionsinkonsistenzen in über 200 Anwendungen dieser Landschaft.",
         "Entwickelte .NET-8-Microservices mit RabbitMQ und Web-API, um die Verarbeitung von Mitgliederabonnements neu aufzubauen.",
-        "Führte das Team durch die PI-Planung, übersetzte fachliche Anforderungen in verbindliche Liefertermine und dokumentierte die zugrunde liegenden Abwägungen; betreute 4-5 Junior-Entwickler.",
-        "Lieferte neue Funktionen in bestehende C#-Windows-Anwendungen und hielt die älteren VB-Anwendungen im Betrieb."
+        "Führte das Team durch die PI-Planung, übersetzte fachliche Anforderungen in verbindliche Lieferzusagen und dokumentierte die zugrunde liegenden Abwägungen; betreute 4-5 Junior-Entwickler.",
+        "Entwickelte neue Funktionen für bestehende C#-Windows-Anwendungen und hielt die älteren VB-Anwendungen im Betrieb."
       ]
     },
     {
@@ -35,10 +35,10 @@
       "role": "Junior Softwareentwickler, befördert zum Senior (2020)",
       "location": "Rajkot, Indien",
       "bullets": [
-        "Entwickelte einen internen Alexa-Skill vollständig (Backend und Frontend) während der Sprachassistenten-Welle 2018 und verwaltete dessen Content-Pipeline.",
-        "Modernisierte ein stark frequentiertes, mehrrollenfähiges POS-Portal von AngularJS über eine Hybridarchitektur zu Angular; verantwortete Backend-Services und Stored Procedures für 50.000 Bestellungen in den saisonalen Sommerspitzen.",
-        "Baute ein ERP-System einer Reha-Einrichtung von klassischem ASP auf Angular um, modernisierte das Backend und verwaltete Aufnahme, Therapieplanung und Abrechnung gegenüber Partnerstiftungen für 300-400 gleichzeitige Patienten.",
-        "Digitalisierte die papierbasierte Erfassung eines Gentestlabors mit einem React-Frontend über ein Multi-Stack-Backend und entwickelte die ETL-Pipeline für einen langfristigen Patientengesundheitsdatenspeicher über 150-180 Partnerkliniken.",
+        "Entwickelte während der Sprachassistenten-Welle 2018 einen internen Alexa-Skill vollständig (Frontend und Backend) und betreute die zugehörige Content-Pipeline.",
+        "Modernisierte ein stark frequentiertes POS-Portal mit mehreren Nutzerrollen von AngularJS über eine Hybridarchitektur zu Angular; verantwortete Backend-Services und Stored Procedures für 50.000 Bestellungen in den sommerlichen Spitzenzeiten.",
+        "Migrierte das ERP-System einer Reha-Einrichtung von klassischem ASP auf Angular, modernisierte das Backend und bildete Aufnahme, Therapieplanung und Abrechnung gegenüber Partnerstiftungen für 300-400 gleichzeitig betreute Patienten ab.",
+        "Digitalisierte die papierbasierte Erfassung eines Gentestlabors mit einem React-Frontend über ein Multi-Stack-Backend und baute die ETL-Pipeline für einen langfristigen Speicher für Patientengesundheitsdaten aus 150-180 Partnerkliniken.",
         "2020 zum Senior befördert; verantwortete seitdem Code-Reviews und Pair Programming für die Junior-Entwickler des Teams."
       ]
     }
@@ -54,7 +54,7 @@
     {
       "institution": "Gujarat Technological University - Indien",
       "dates": "2013 - 2017",
-      "degree": "Bachelor of Engineering in Informatik und Ingenieurwesen",
+      "degree": "Bachelor of Engineering, Computer Science & Engineering",
       "location": "Ahmedabad, Indien",
       "note": "CGPA - 8.24"
     }
@@ -65,7 +65,7 @@
     { "label": "Datenbanken", "value": "SQL Server, MySQL, MongoDB" },
     { "label": "Tools", "value": "Azure, Docker, Git, CI/CD, RabbitMQ" },
     { "label": "Methoden", "value": "Agile/Scrum, Microservices" },
-    { "label": "Sprachen", "value": "Englisch (Fließend), Deutsch (A1), Hindi (Muttersprache), Gujarati (Muttersprache)" }
+    { "label": "Sprachen", "value": "Englisch (fließend), Deutsch (A1), Hindi (Muttersprache), Gujarati (Muttersprache)" }
   ],
   "projects": [
     {
@@ -75,7 +75,7 @@
       "org": "github.com/drshnmaniar",
       "orgUrl": "https://github.com/drshnmaniar/drshnmaniar.github.io",
       "bullets": [
-        "Entwickelte ein React-Portfolio mit allen Inhalten in einer einzigen JSON-Datei, sodass Textänderungen nie den Komponentencode berühren.",
+        "Entwickelte ein React-Portfolio mit allen Inhalten in einer einzigen JSON-Datei, sodass Inhaltsänderungen ohne Eingriff in den Komponentencode möglich sind.",
         "Richtete eine GitHub-Actions-Pipeline ein, die den englischen und deutschen Lebenslauf bei jedem Push aus LaTeX kompiliert und die herunterladbaren PDFs stets aktuell hält.",
         "Open Source; das Repository dient zugleich als überprüfbare, praktische Arbeitsprobe."
       ]
@@ -87,9 +87,9 @@
       "org": "Hochschule Heilbronn",
       "orgUrl": "",
       "bullets": [
-        "Konzipierte und führte eine Umfrage unter Forschenden zur Nutzung von KI-Tools durch: 36 Antworten in 29 Tagen, ausgewertet mit deskriptiver Statistik und manuell kodierten Freitextantworten.",
+        "Konzipierte eine Umfrage unter Forschenden zur Nutzung von KI-Tools und führte sie durch: 36 Antworten in 29 Tagen, ausgewertet mit deskriptiver Statistik und manuell kodierten Freitextantworten.",
         "78 % der Befragten berichteten von Produktivitätsgewinnen, während Zuverlässigkeitslücken ihr Vertrauen in die Tools untergruben.",
-        "Berichtete Befunde zu Tool-Fragmentierung, Preismodellen und Reibungsverlusten im Arbeitsablauf, mit Empfehlungen zur Konsolidierung auf weniger Werkzeuge."
+        "Dokumentierte Ergebnisse zu Tool-Fragmentierung, Preismodellen und Reibungspunkten im Arbeitsablauf und empfahl die Konsolidierung auf weniger Werkzeuge."
       ]
     }
   ]

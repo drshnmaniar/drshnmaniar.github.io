@@ -53,7 +53,7 @@ After each task: re-run the whole pipeline, update the checkboxes, commit with m
 - [x] **L2** Every bullet = verb + what + scale/outcome. No bullet ends in an unverifiable outcome clause.
 - [x] **L3** Work-authorization line states the concrete entitlement (e.g. "20 h/week during semester, full-time during breaks; unrestricted from early 2027"), not just "German Student Visa".
 - [x] **L4** AI-research bullets claim what a coursework survey can claim: "78% of respondents reported gains" style, no "delivered actionable insights … platform consolidation" fluff.
-- [ ] **L5** DE text is idiomatic German, not translated English (spot-check by native speaker or LLM pass with that explicit instruction).
+- [x] **L5** DE text is idiomatic German, not translated English (spot-check by native speaker or LLM pass with that explicit instruction).
 
 ---
 
@@ -112,6 +112,7 @@ Each row records what a reviewer would notice changed, not the mechanical diff (
 | v8 | T8 | 2026-07-22 | Both employers claimed "4-5 junior developers", which read copy-pasted. Reveation keeps the headcount; Tark now claims the practice instead — owning code review and pair programming after the 2020 promotion. "4-5" appears exactly once per language. | C4 |
 | v9 | T9 | 2026-07-22 | "Work Authorization: German Student Visa" made a recruiter guess what they may offer. It now states the entitlement: 20 h/week, full-time in semester breaks, full-time from early 2027 — matching the availability line on the website. Both language versions fit on one header line. | L3 |
 | v10 | T10 | 2026-07-22 | AI-research entry cut from four bullets to three and stripped of research-theatre vocabulary: "designed and deployed a structured survey methodology" is now "designed and ran a survey", and "statistical analysis ... using descriptive statistics" (which said the same thing twice) is now plainly descriptive statistics plus hand-coded free text. The 78% stays framed as what respondents reported. | L4 |
+| v11 | T11 | 2026-07-22 | German phrasing pass, facts untouched. Calques replaced with the terms German IT actually uses (`Altsystemlandschaft`, not `Altsystembestand`; `Inhaltsänderungen ohne Eingriff in den Komponentencode`, not code that gets "berührt"). Fixed a split-verb error in the survey bullet, rebuilt the profile in noun style so it no longer switches subject mid-sentence, lower-cased `(fließend)`, and left the Bachelor's title in English to match the EN version. | L5 |
 
 Rules for the agent filling this in:
 - One row per task, appended in the same commit as the task itself.
