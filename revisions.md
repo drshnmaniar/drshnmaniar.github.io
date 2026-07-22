@@ -105,6 +105,7 @@ Each row records what a reviewer would notice changed, not the mechanical diff (
 | v1 | T1 | 2026-07-22 | The monitoring project claimed "200+ mission-critical production systems" while Experience described the same system as covering "50+ global applications". Monitoring now reads 50+ production applications in both places; the 200+ figure survives only where it belongs, scoped as "the 200+ applications in the legacy estate". | C1 |
 | v2 | T2 | 2026-07-22 | The monitoring project's vague "from hours to minutes" now carries the same 8-10 hours to 10-15 minutes figures the Experience bullet uses, so the two descriptions of one system no longer differ in precision. | C2 |
 | v3 | T3 | 2026-07-22 | The Certification section and its single introductory Coursera entry are gone — data, label, and template block. A 7-year engineer listing an intro Python cert reads junior; the section earned no space. Order is now Summary, Experience, Education, Technical Skills, Projects. | S2, S4 |
+| v4 | T4 | 2026-07-22 | The System Health Monitoring Dashboard project is gone: four of its five bullets restated the Experience bullet describing the same system, and the fifth was cross-team filler. Its one net-new detail — alerts carrying contextual error data for root-cause work — folded into that Experience bullet. | — (C3 partial) |
 
 Rules for the agent filling this in:
 - One row per task, appended in the same commit as the task itself.

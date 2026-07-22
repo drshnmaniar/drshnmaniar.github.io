@@ -20,7 +20,7 @@
       "role": "Softwareentwickler III (Full Stack)",
       "location": "Remote, Indien",
       "bullets": [
-        "Entwarf ein Echtzeit-System zur Gesundheitsüberwachung mit React, Microservices, geplanten Aufgaben und Azure Workbooks. Dadurch wurden die Fehlererkennungszeiten von 8-10 Stunden auf 10-15 Minuten über mehr als 50 globale Anwendungen hinweg reduziert und die Reaktionsfähigkeit des Unternehmens verbessert.",
+        "Entwarf ein Echtzeit-System zur Zustandsüberwachung (React, .NET-Microservices, geplante Jobs, Azure Workbooks) für die über 50 Anwendungen des globalen Produktionsbestands; senkte die Fehlererkennungszeit von 8-10 Stunden auf 10-15 Minuten und lieferte Alarme mit kontextbezogenen Fehlerdetails für eine schnellere Ursachenanalyse.",
         "Stabilisierte ein altes Abonnementverwaltungssystem, das 50.000 Anbieter und 1 Million internationale Mitglieder bedient. Reduzierte Support-Tickets durch eine systematische Problemlösung um etwa 30 % im Laufe des folgenden Jahres.",
         "Modernisierte Altsysteme durch Umstellung von TFS auf Git, Aktualisierung von Framework-Versionen und Implementierung automatisierter CI/CD-Pipelines für schnellere und zuverlässigere Bereitstellungen.",
         "Arbeitete mit Kollegen zusammen, um Microservices mit .NET 8, RabbitMQ und Web-APIs zu implementieren. Restrukturierte Legacy-Anwendungen, um die Verarbeitung von Mitgliederabonnements und die Systemskalierbarkeit zu verbessern.",
@@ -102,20 +102,6 @@
         "Leitete die Migration von Legacy-VB-Anwendungen von TFS zu Git, aktualisierte .NET-Framework-Versionen und modernisierte Entwicklungsabläufe für verbesserte Wartbarkeit.",
         "Entwarf eine modulare NuGet-Paketstrategie, die monolithische Legacy-Module in wiederverwendbare Komponenten umwandelte und Versionsinkonsistenzen über die mehr als 200 Anwendungen des Altsystembestands hinweg beseitigte.",
         "Implementierte eine CI/CD-Pipeline mit automatisierten Code-Reviews und einer manuellen Testphase, wodurch die Bereitstellungszeit von 2-3 Stunden auf etwa 1 Stunde reduziert und konsistente Code-Qualitätsstandards in den Entwicklungsteams etabliert wurden."
-      ]
-    },
-    {
-      "title": "Dashboard zur Systemüberwachung",
-      "subtitle": "Senior Full-Stack-Entwickler",
-      "dates": "Juni 2024 - Dez. 2024",
-      "org": "Reveation Labs",
-      "orgUrl": "",
-      "bullets": [
-        "Entwarf die Überwachungslösung für die über 50 Produktionsanwendungen des globalen Anwendungsbestands und ersetzte kundengemeldete Störungen durch proaktive Erkennung.",
-        "Entwickelte das Echtzeit-Dashboard und die Alarmierungsschicht, die die mittlere Erkennungszeit (MTTD) von 8-10 Stunden auf 10-15 Minuten senkten.",
-        "Implementierte ein automatisiertes Benachrichtigungssystem mit kontextbezogener Fehleranalyse, was eine schnellere Identifizierung der Grundursache und eine proaktivere Störungsbehebung ermöglichte.",
-        "Lieferte eine proaktive Überwachungslösung, die das Betriebsmodell von kundengemeldeten Problemen auf vorausschauende Wartung umstellte.",
-        "Arbeitete mit funktionsübergreifenden Teams über mehrere Zeitzonen hinweg zusammen, um eine nahtlose Integration in die bestehende Unternehmensinfrastruktur sicherzustellen."
       ]
     }
   ]

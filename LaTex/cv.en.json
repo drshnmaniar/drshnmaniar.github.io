@@ -20,7 +20,7 @@
       "role": "Software Engineer III (Full Stack)",
       "location": "Remote, India",
       "bullets": [
-        "Architected a real-time health monitoring system using React, Microservices, Scheduled jobs and Azure Workbooks, reducing failure detection times from 8-10 hours to 10-15 minutes across 50+ global applications, enhancing business responsiveness.",
+        "Architected a real-time health monitoring system (React, .NET microservices, scheduled jobs, Azure Workbooks) covering the 50+ applications in the global production estate; cut failure detection from 8-10 hours to 10-15 minutes and shipped alerts carrying contextual error detail for faster root-cause identification.",
         "Stabilized a legacy subscription management system serving 50K vendors and 1 million international members, reducing support tickets by roughly 30% over the following year through a systematic problem-solving approach.",
         "Modernized legacy applications by transitioning from TFS to Git, updating framework versions, and implementing automated CI/CD pipelines for faster, more reliable deployments.",
         "Collaborated with peers to implement microservices using .NET 8, RabbitMQ, and Web API, restructuring legacy applications to enhance member subscription processing and system scalability.",
@@ -102,20 +102,6 @@
         "Led migration of legacy VB applications from TFS to Git, upgrading .NET framework versions, and modernizing development workflows for improved maintainability",
         "Architected modular NuGet package strategy converting monolithic legacy modules into reusable components, eliminating version inconsistencies across the 200+ applications in the legacy estate",
         "Implemented CI/CD pipeline with automated code review and a manual testing gate, reducing deployment time from 2-3 hours to about 1 hour while establishing consistent code quality standards across development teams"
-      ]
-    },
-    {
-      "title": "System Health Monitoring Dashboard",
-      "subtitle": "Senior Full Stack Developer",
-      "dates": "Jun 2024 - Dec 2024",
-      "org": "Reveation Labs",
-      "orgUrl": "",
-      "bullets": [
-        "Architected the monitoring solution covering the 50+ production applications in the company's global estate, replacing client-reported incidents with proactive detection",
-        "Developed the real-time dashboard and alerting layer that cut mean time to detection from 8-10 hours to 10-15 minutes",
-        "Implemented automated notification system with contextual error analysis, enabling faster root cause identification and more proactive incident response",
-        "Delivered proactive monitoring solution that transformed operational model from client-reported issues to predictive maintenance",
-        "Collaborated with cross-functional teams across multiple time zones to ensure seamless integration with existing enterprise infrastructure"
       ]
     }
   ]
