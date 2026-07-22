@@ -87,9 +87,8 @@
       "org": "Hochschule Heilbronn",
       "orgUrl": "",
       "bullets": [
-        "Designed and deployed a structured survey methodology collecting 36 responses across 29 days, analyzing user experience patterns and adoption barriers for AI tools in research workflows",
-        "Performed statistical analysis and thematic coding of quantitative and free-text data using descriptive statistics and manual analysis techniques",
-        "Found that 78% of respondents reported productivity gains, while reliability gaps were eroding their trust in the tools",
+        "Designed and ran a survey of researchers using AI tools: 36 responses over 29 days, analyzed with descriptive statistics and hand-coded free-text answers",
+        "78% of respondents reported productivity gains, while reliability gaps were eroding their trust in the tools",
         "Reported findings on tool fragmentation, pricing models, and workflow friction, with recommendations for consolidating on fewer tools"
       ]
     }

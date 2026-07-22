@@ -87,9 +87,8 @@
       "org": "Hochschule Heilbronn",
       "orgUrl": "",
       "bullets": [
-        "Entwarf und implementierte eine strukturierte Umfragemethodik, die innerhalb von 29 Tagen 36 Antworten sammelte, um User-Experience-Muster und Adoptionsbarrieren für KI-Tools in Forschungsabläufen zu analysieren.",
-        "Führte statistische Analysen und thematische Kodierungen quantitativer und Freitext-Daten mit deskriptiver Statistik und manuellen Analysetechniken durch.",
-        "Stellte fest, dass 78 % der Befragten Produktivitätssteigerungen berichteten, während Zuverlässigkeitslücken ihr Vertrauen in die Tools untergruben.",
+        "Konzipierte und führte eine Umfrage unter Forschenden zur Nutzung von KI-Tools durch: 36 Antworten in 29 Tagen, ausgewertet mit deskriptiver Statistik und manuell kodierten Freitextantworten.",
+        "78 % der Befragten berichteten von Produktivitätsgewinnen, während Zuverlässigkeitslücken ihr Vertrauen in die Tools untergruben.",
         "Berichtete Befunde zu Tool-Fragmentierung, Preismodellen und Reibungsverlusten im Arbeitsablauf, mit Empfehlungen zur Konsolidierung auf weniger Werkzeuge."
       ]
     }
