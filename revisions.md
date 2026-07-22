@@ -58,7 +58,7 @@ the two differ, the site moves.
 - [ ] **W1** No count or duration on the site contradicts the CV. Specifically: the monitoring system covers 50+ applications (not 200+), 200+ belongs only to the legacy estate, detection is 8-10 h → 10-15 min, deploys 2-3 h → ~1 h, tickets ~30% over the following year.
 - [ ] **W2** Availability says the same thing in all four places (hero, footer, journey 2027, CV header): 20 h/week in semester, full-time in semester breaks, full-time from early 2027. No place may promise full-time *now* — the student visa does not allow it.
 - [ ] **W3** No project card point restates an experience highlight. Cards carry the how and the artifact; the highlight carries the outcome. Grep test: no 6-word stem shared between `experience[].highlights` and `projects[].points`.
-- [ ] **W4** No project period is narrower than the work it claims. The modernization card may not date 200+ applications to a six-week window.
+- [x] **W4** No project period is narrower than the work it claims. The modernization card may not date 200+ applications to a six-week window.
 - [ ] **W5** Same filler ban as L1, applied to `portfolio.json` and the components.
 - [ ] **W6** `npm run build` exits 0 and `portfolio.json` parses.
 
@@ -145,6 +145,7 @@ Each row records what a reviewer would notice changed, not the mechanical diff (
 | v12 | T12 | 2026-07-22 | Consistency sweep. Caught one straggler the earlier tasks missed: "the estate" carried 50+ in one bullet and 200+ in another, reviving the C1 contradiction in softer words. Monitoring now covers "50+ production applications worldwide"; the NuGet work covers "the 200+ applications in the legacy estate". Layout verified from rendered page images rather than text extraction, which had been reordering right-aligned columns. Screener pass logged one new finding as S6. | C6, C7, S5 |
 | v13 | T13 | 2026-07-22 | Both CVs are now one dense page instead of one full page plus a quarter-full one. Cut by weakest-first, not by padding: the 2018 Alexa skill (oldest, least relevant to a .NET modernization pitch), the C#/VB feature-maintenance bullet (its VB signal moved into the migration bullet, which now reads "legacy C# and VB estate"), and two bullets merged in each project. No claim was lost, only restated more tightly. | S6 |
 | v14 | T14 | 2026-07-22 | Website monitoring card said "200+ mission-critical production systems" while the site's own experience section said 50+ — the contradiction the CV fixed at v1, still live on the page. Card now reads 50+ applications, "8-10 hours → 10-15 minutes" instead of "hours → minutes", and the alerting bullet describes what the alerts contain rather than calling itself intelligent. | W1 (monitoring), W5 |
+| v15 | T15 | 2026-07-22 | The modernization card dated 200+ unified applications to six weeks. Period widened to the Reveation tenure (Dec 2022 - Mar 2025, unambiguously true) and the six-week window kept where it is defensible: as the intensive migration phase, stated inside the bullet. The site keeps the card the CV dropped, because the site has room to explain it. | W4 |
 
 Rules for the agent filling this in:
 - One row per task, appended in the same commit as the task itself.

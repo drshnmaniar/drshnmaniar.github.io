@@ -117,13 +117,13 @@
     {
       "title": "Legacy Modernization & DevOps Transformation",
       "role": "Lead Developer · Reveation Labs",
-      "period": "Dec 2024 - Jan 2025",
+      "period": "Dec 2022 - Mar 2025",
       "color": "violet",
       "icon": "🏗️",
       "pitch": "Turning a VB-era monolith into modular, CI/CD-powered components, without breaking production.",
       "points": [
-        "Migrated legacy VB applications from TFS to Git and upgraded .NET framework versions.",
-        "Modular NuGet package strategy eliminated version chaos across 200+ applications.",
+        "Migrated legacy VB applications from TFS to Git and upgraded .NET framework versions; the intensive migration phase ran Dec 2024 - Jan 2025.",
+        "Modular NuGet package strategy eliminated version chaos across the 200+ applications in the legacy estate.",
         "CI/CD with automated code review and a manual testing gate: deployments went from 2-3 hours to about an hour."
       ],
       "metrics": [
