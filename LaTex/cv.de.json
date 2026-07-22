@@ -108,7 +108,7 @@
       "orgUrl": "",
       "bullets": [
         "Leitete die Migration von Legacy-VB-Anwendungen von TFS zu Git, aktualisierte .NET-Framework-Versionen und modernisierte Entwicklungsabläufe für verbesserte Wartbarkeit.",
-        "Entwarf eine modulare NuGet-Paketstrategie, die monolithische Legacy-Module in wiederverwendbare Komponenten umwandelte und Versionsinkonsistenzen über mehr als 200 Anwendungen hinweg beseitigte.",
+        "Entwarf eine modulare NuGet-Paketstrategie, die monolithische Legacy-Module in wiederverwendbare Komponenten umwandelte und Versionsinkonsistenzen über die mehr als 200 Anwendungen des Altsystembestands hinweg beseitigte.",
         "Implementierte eine CI/CD-Pipeline mit automatisierten Code-Reviews und einer manuellen Testphase, wodurch die Bereitstellungszeit von 2-3 Stunden auf etwa 1 Stunde reduziert und konsistente Code-Qualitätsstandards in den Entwicklungsteams etabliert wurden."
       ]
     },
@@ -119,7 +119,7 @@
       "org": "Reveation Labs",
       "orgUrl": "",
       "bullets": [
-        "Entwarf eine umfassende Überwachungslösung für über 200 geschäftskritische Produktionssysteme, eliminierte das reaktive Störungsmanagement und stellte die Geschäftskontinuität sicher.",
+        "Entwarf die Überwachungslösung für die über 50 Produktionsanwendungen des globalen Anwendungsbestands und ersetzte kundengemeldete Störungen durch proaktive Erkennung.",
         "Entwickelte ein Echtzeit-Dashboard mit intelligentem Alarmsystem, das die Mean Time to Detection (MTTD) von Stunden auf Minuten reduzierte und sich direkt auf die Kundenzufriedenheit auswirkte.",
         "Implementierte ein automatisiertes Benachrichtigungssystem mit kontextbezogener Fehleranalyse, was eine schnellere Identifizierung der Grundursache und eine proaktivere Störungsbehebung ermöglichte.",
         "Lieferte eine proaktive Überwachungslösung, die das Betriebsmodell von kundengemeldeten Problemen auf vorausschauende Wartung umstellte.",

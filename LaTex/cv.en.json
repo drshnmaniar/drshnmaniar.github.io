@@ -108,7 +108,7 @@
       "orgUrl": "",
       "bullets": [
         "Led migration of legacy VB applications from TFS to Git, upgrading .NET framework versions, and modernizing development workflows for improved maintainability",
-        "Architected modular NuGet package strategy converting monolithic legacy modules into reusable components, eliminating version inconsistencies across 200+ applications",
+        "Architected modular NuGet package strategy converting monolithic legacy modules into reusable components, eliminating version inconsistencies across the 200+ applications in the legacy estate",
         "Implemented CI/CD pipeline with automated code review and a manual testing gate, reducing deployment time from 2-3 hours to about 1 hour while establishing consistent code quality standards across development teams"
       ]
     },
@@ -119,7 +119,7 @@
       "org": "Reveation Labs",
       "orgUrl": "",
       "bullets": [
-        "Architected comprehensive monitoring solution for 200+ mission-critical production systems, eliminating reactive incident management and ensuring business continuity",
+        "Architected the monitoring solution covering the 50+ production applications in the company's global estate, replacing client-reported incidents with proactive detection",
         "Developed real-time dashboard with intelligent alerting system, reducing Mean Time to Detection (MTTD) from hours to minutes, directly impacting customer satisfaction",
         "Implemented automated notification system with contextual error analysis, enabling faster root cause identification and more proactive incident response",
         "Delivered proactive monitoring solution that transformed operational model from client-reported issues to predictive maintenance",
