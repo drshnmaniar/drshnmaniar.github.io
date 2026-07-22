@@ -49,6 +49,19 @@ After each task: re-run the whole pipeline, update the checkboxes, commit with m
 - [x] **S5** Both PDFs ≤ 2 pages; no orphaned headers (layout gate).
 - [x] **S6** No mostly-empty page. Either the CV fits one dense page, or page 2 is at least half full. Added by the gate-4 screener pass at v12: page 1 was ~90% full and page 2 ~25%, which reads like the content ran out.
 
+### D. Website ↔ CV parity (`src/content/portfolio.json`, `src/components/*.js`)
+
+Added 2026-07-22 after the CV loop closed. The site is the same claims in a louder voice; a
+recruiter who reads both must not find them disagreeing. The CV is now the reference — where
+the two differ, the site moves.
+
+- [ ] **W1** No count or duration on the site contradicts the CV. Specifically: the monitoring system covers 50+ applications (not 200+), 200+ belongs only to the legacy estate, detection is 8-10 h → 10-15 min, deploys 2-3 h → ~1 h, tickets ~30% over the following year.
+- [ ] **W2** Availability says the same thing in all four places (hero, footer, journey 2027, CV header): 20 h/week in semester, full-time in semester breaks, full-time from early 2027. No place may promise full-time *now* — the student visa does not allow it.
+- [ ] **W3** No project card point restates an experience highlight. Cards carry the how and the artifact; the highlight carries the outcome. Grep test: no 6-word stem shared between `experience[].highlights` and `projects[].points`.
+- [ ] **W4** No project period is narrower than the work it claims. The modernization card may not date 200+ applications to a six-week window.
+- [ ] **W5** Same filler ban as L1, applied to `portfolio.json` and the components.
+- [ ] **W6** `npm run build` exits 0 and `portfolio.json` parses.
+
 ### C. Language / signal
 - [x] **L1** Zero filler adjectives in bullets: comprehensive, intelligent, seamless, robust, cutting-edge, mission-critical (unless counting something), "ensuring business continuity", "directly impacting customer satisfaction". Grep for each.
 - [x] **L2** Every bullet = verb + what + scale/outcome. No bullet ends in an unverifiable outcome clause.
@@ -75,8 +88,22 @@ After each task: re-run the whole pipeline, update the checkboxes, commit with m
 | T11 | Idiomatic-German pass over cv.de.json (content unchanged, phrasing only) | cv.de.json | L5, C7 |
 | T12 | Final consistency sweep: run all checklist greps against fresh main.txt/main_de.txt; fix stragglers | any | all boxes |
 | T13 | Compress to one dense page: cut the weakest bullet from each block rather than padding page 2 | both JSONs | S6, S5 still green |
+| T14 | Monitoring card: 200+ → 50+ applications, precise detection figures, drop "intelligent" | portfolio.json | W1 (monitoring), W5 (partial) |
+| T15 | Modernization card: widen the period to the Reveation tenure and move "intensive migration phase Dec 2024 - Jan 2025" into the points | portfolio.json | W4 |
+| T16 | Availability parity: hero, footer, and journey 2027 state the visa entitlement and stop promising full-time now | portfolio.json, Footer.js | W2 |
+| T17 | Carry the CV's two new facts (deploy time, NuGet packaging) into the site's experience highlights; de-duplicate card points against highlights | portfolio.json | W1, W3 |
+| T18 | Site filler sweep + `npm run build` + screener pass over the rendered page | portfolio.json, components | W5, W6 |
 
-**Ordering constraint:** T1–T2 before T4–T5 (agree on numbers before moving text). T3 anytime. T7 after T4–T6 (don't polish text that's about to be deleted). T11–T12 last.
+**Ordering constraint:** T1–T2 before T4–T5 (agree on numbers before moving text). T3 anytime. T7 after T4–T6 (don't polish text that's about to be deleted). T11–T12 last. T14–T18 run after the CV loop closes, because the CV is their reference; T18 last of all.
+
+**Website pipeline** (replaces E1–E4 for T14–T18):
+
+```bash
+node -e "JSON.parse(require('fs').readFileSync('src/content/portfolio.json','utf8'))"   # parses
+npm run build                                                                          # exits 0
+```
+
+Then the W-rows above, checked against `portfolio.json` and `LaTex/cv.en.json` side by side.
 
 ---
 
