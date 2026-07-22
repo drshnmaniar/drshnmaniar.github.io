@@ -76,7 +76,7 @@
       "highlights": [
         "Architected a real-time health monitoring system (React, .NET microservices, Azure Workbooks) for 50+ global applications. Failure detection went from 8-10 hours to 10-15 minutes.",
         "Stabilized a legacy subscription platform serving 50K vendors and 1M+ international members; support ticket volume fell by roughly a third over the following year.",
-        "Drove the TFS → Git migration, framework upgrades, and automated CI/CD across the legacy estate.",
+        "Drove the TFS → Git migration, framework upgrades, and automated CI/CD across the legacy estate; deployment time fell from 2-3 hours to about one.",
         "Built .NET 8 microservices with RabbitMQ and Web API to restructure member subscription processing.",
         "Led PI planning and mentored 4-5 junior developers."
       ]
@@ -91,7 +91,7 @@
         "Modernized a high-traffic, multi-role POS portal from AngularJS through a hybrid architecture to Angular; owned back-end services and stored procedures through peak summer seasons of 50K orders.",
         "Rebuilt a rehab-facility ERP from classic ASP to Angular, managing enrollment, therapy scheduling, and billing to partner foundations for 300-400 concurrent patients.",
         "Digitized a gene-testing lab's paper intake with a React front-end over a multi-stack back-end, and built the ETL pipeline feeding a long-term patient health-data store across 150-180 partner clinics.",
-        "Promoted to Senior in 2020; ran code reviews and pair-programming sessions and coached 4-5 junior developers from there on."
+        "Promoted to Senior in 2020; owned code review and pair programming for the team's junior developers from there on."
       ]
     }
   ],
@@ -124,7 +124,7 @@
       "points": [
         "Migrated legacy VB applications from TFS to Git and upgraded .NET framework versions; the intensive migration phase ran Dec 2024 - Jan 2025.",
         "Modular NuGet package strategy eliminated version chaos across the 200+ applications in the legacy estate.",
-        "CI/CD with automated code review and a manual testing gate: deployments went from 2-3 hours to about an hour."
+        "CI/CD with automated code review and a manual testing gate, so releasing stopped depending on who was around to do it by hand."
       ],
       "metrics": [
         { "value": "200+", "label": "apps unified" },
