@@ -51,7 +51,7 @@ After each task: re-run the whole pipeline, update the checkboxes, commit with m
 ### C. Language / signal
 - [x] **L1** Zero filler adjectives in bullets: comprehensive, intelligent, seamless, robust, cutting-edge, mission-critical (unless counting something), "ensuring business continuity", "directly impacting customer satisfaction". Grep for each.
 - [x] **L2** Every bullet = verb + what + scale/outcome. No bullet ends in an unverifiable outcome clause.
-- [ ] **L3** Work-authorization line states the concrete entitlement (e.g. "20 h/week during semester, full-time during breaks; unrestricted from early 2027"), not just "German Student Visa".
+- [x] **L3** Work-authorization line states the concrete entitlement (e.g. "20 h/week during semester, full-time during breaks; unrestricted from early 2027"), not just "German Student Visa".
 - [ ] **L4** AI-research bullets claim what a coursework survey can claim: "78% of respondents reported gains" style, no "delivered actionable insights … platform consolidation" fluff.
 - [ ] **L5** DE text is idiomatic German, not translated English (spot-check by native speaker or LLM pass with that explicit instruction).
 
@@ -110,6 +110,7 @@ Each row records what a reviewer would notice changed, not the mechanical diff (
 | v6 | T6 | 2026-07-22 | Summary cut from five rendered lines to three in both languages. Gone: the tech-stack list (Skills already has it), the language levels (ditto), the M.Sc. restatement (Education has it), and the imprecise "hours to minutes" echo. Kept: 7+ years, the modernization specialism stated as what it actually does, and the intent to stay in Germany. | S3 |
 | v7 | T7 | 2026-07-22 | Filler pass over every remaining bullet in both languages. "Collaborated with peers to implement microservices ... to enhance scalability" became "Built .NET 8 microservices with RabbitMQ and Web API to restructure member subscription processing"; the PI-planning bullet lost three clauses of process narration; "ensuring system stability and enhancing user experience" and "through a systematic problem-solving approach" are gone. Every bullet now ends on a fact, not an adjective. | L1, L2 |
 | v8 | T8 | 2026-07-22 | Both employers claimed "4-5 junior developers", which read copy-pasted. Reveation keeps the headcount; Tark now claims the practice instead — owning code review and pair programming after the 2020 promotion. "4-5" appears exactly once per language. | C4 |
+| v9 | T9 | 2026-07-22 | "Work Authorization: German Student Visa" made a recruiter guess what they may offer. It now states the entitlement: 20 h/week, full-time in semester breaks, full-time from early 2027 — matching the availability line on the website. Both language versions fit on one header line. | L3 |
 
 Rules for the agent filling this in:
 - One row per task, appended in the same commit as the task itself.
