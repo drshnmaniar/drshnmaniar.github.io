@@ -20,10 +20,10 @@
       "role": "Software Engineer III (Full Stack)",
       "location": "Remote, India",
       "bullets": [
-        "Architected a real-time health monitoring system (React, .NET microservices, scheduled jobs, Azure Workbooks) covering the 50+ applications in the global production estate; cut failure detection from 8-10 hours to 10-15 minutes and shipped alerts carrying contextual error detail for faster root-cause identification.",
+        "Architected a real-time health monitoring system (React, .NET microservices, scheduled jobs, Azure Workbooks) covering 50+ production applications worldwide; cut failure detection from 8-10 hours to 10-15 minutes and shipped alerts carrying contextual error detail for faster root-cause identification.",
         "Stabilized a legacy subscription management system serving 50K vendors and 1 million international members, cutting support tickets by roughly 30% over the following year.",
         "Drove the TFS-to-Git migration, .NET framework upgrades, and automated CI/CD across the legacy estate, cutting deployment time from 2-3 hours to about 1 hour.",
-        "Converted monolithic legacy modules into versioned NuGet packages, eliminating version inconsistencies across the 200+ applications in the estate.",
+        "Converted monolithic legacy modules into versioned NuGet packages, eliminating version inconsistencies across the 200+ applications in the legacy estate.",
         "Built .NET 8 microservices with RabbitMQ and Web API to restructure member subscription processing.",
         "Led the team through PI planning, turning business requirements into delivery commitments and documenting the trade-offs behind them; mentored 4-5 junior developers.",
         "Shipped features into legacy C# Windows applications and kept the older VB-based apps running."

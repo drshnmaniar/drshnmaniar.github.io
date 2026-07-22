@@ -38,15 +38,16 @@ After each task: re-run the whole pipeline, update the checkboxes, commit with m
 - [ ] **C3** No verbatim-duplicated achievements between Experience and Projects. Grep test: no sentence stem (≥6 consecutive words) appears in both sections.
 - [x] **C4** "Mentored/coached 4-5 junior developers" appears at most once per employer and is phrased differently if it appears twice at all.
 - [x] **C5** Modernization project period "Dec 2024 - Jan 2025" either carries the real program span or the 6-week claim is scoped to what actually happened in 6 weeks. 200+ apps in 6 weeks fails the sniff test.
-- [ ] **C6** Every number survives "how did you measure that?" — flag any % or count with no stated scope/window.
-- [ ] **C7** EN and DE make identical factual claims (same numbers, same dates, same counts).
+- [x] **C6** Every number survives "how did you measure that?" — flag any % or count with no stated scope/window.
+- [x] **C7** EN and DE make identical factual claims (same numbers, same dates, same counts).
 
 ### B. Structure
 - [x] **S1** Projects section contains no entry that restates an Experience bullet. Reveation projects are either merged into experience bullets or carry *only* detail not present there. Target: Projects = Personal Site, AI Research, and at most one non-duplicative Reveation entry.
 - [x] **S2** Certification section removed (single intro Coursera cert = junior signal). `labels.certification`, `certifications[]`, and the template's certification block all gone.
 - [x] **S3** Summary ≤ 3 lines in the rendered PDF. Cut everything the CV already demonstrates.
 - [x] **S4** Section order after S2: Summary → Experience → Education → Technical Skills → Projects.
-- [ ] **S5** Both PDFs ≤ 2 pages; no orphaned headers (layout gate).
+- [x] **S5** Both PDFs ≤ 2 pages; no orphaned headers (layout gate).
+- [ ] **S6** No mostly-empty page. Either the CV fits one dense page, or page 2 is at least half full. Added by the gate-4 screener pass at v12: page 1 was ~90% full and page 2 ~25%, which reads like the content ran out.
 
 ### C. Language / signal
 - [x] **L1** Zero filler adjectives in bullets: comprehensive, intelligent, seamless, robust, cutting-edge, mission-critical (unless counting something), "ensuring business continuity", "directly impacting customer satisfaction". Grep for each.
@@ -73,6 +74,7 @@ After each task: re-run the whole pipeline, update the checkboxes, commit with m
 | T10 | Tighten AI-research bullets to survey-honest claims | both JSONs | L4 |
 | T11 | Idiomatic-German pass over cv.de.json (content unchanged, phrasing only) | cv.de.json | L5, C7 |
 | T12 | Final consistency sweep: run all checklist greps against fresh main.txt/main_de.txt; fix stragglers | any | all boxes |
+| T13 | Compress to one dense page: cut the weakest bullet from each block rather than padding page 2 | both JSONs | S6, S5 still green |
 
 **Ordering constraint:** T1–T2 before T4–T5 (agree on numbers before moving text). T3 anytime. T7 after T4–T6 (don't polish text that's about to be deleted). T11–T12 last.
 
@@ -113,6 +115,7 @@ Each row records what a reviewer would notice changed, not the mechanical diff (
 | v9 | T9 | 2026-07-22 | "Work Authorization: German Student Visa" made a recruiter guess what they may offer. It now states the entitlement: 20 h/week, full-time in semester breaks, full-time from early 2027 — matching the availability line on the website. Both language versions fit on one header line. | L3 |
 | v10 | T10 | 2026-07-22 | AI-research entry cut from four bullets to three and stripped of research-theatre vocabulary: "designed and deployed a structured survey methodology" is now "designed and ran a survey", and "statistical analysis ... using descriptive statistics" (which said the same thing twice) is now plainly descriptive statistics plus hand-coded free text. The 78% stays framed as what respondents reported. | L4 |
 | v11 | T11 | 2026-07-22 | German phrasing pass, facts untouched. Calques replaced with the terms German IT actually uses (`Altsystemlandschaft`, not `Altsystembestand`; `Inhaltsänderungen ohne Eingriff in den Komponentencode`, not code that gets "berührt"). Fixed a split-verb error in the survey bullet, rebuilt the profile in noun style so it no longer switches subject mid-sentence, lower-cased `(fließend)`, and left the Bachelor's title in English to match the EN version. | L5 |
+| v12 | T12 | 2026-07-22 | Consistency sweep. Caught one straggler the earlier tasks missed: "the estate" carried 50+ in one bullet and 200+ in another, reviving the C1 contradiction in softer words. Monitoring now covers "50+ production applications worldwide"; the NuGet work covers "the 200+ applications in the legacy estate". Layout verified from rendered page images rather than text extraction, which had been reordering right-aligned columns. Screener pass logged one new finding as S6. | C6, C7, S5 |
 
 Rules for the agent filling this in:
 - One row per task, appended in the same commit as the task itself.

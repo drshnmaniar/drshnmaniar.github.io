@@ -20,10 +20,10 @@
       "role": "Softwareentwickler III (Full Stack)",
       "location": "Remote, Indien",
       "bullets": [
-        "Konzipierte ein Echtzeit-System zur Systemüberwachung (React, .NET-Microservices, geplante Jobs, Azure Workbooks) für über 50 Anwendungen der globalen Produktionslandschaft; senkte die Fehlererkennungszeit von 8-10 Stunden auf 10-15 Minuten und versah Alarme mit kontextbezogenen Fehlerdetails für eine schnellere Ursachenanalyse.",
+        "Konzipierte ein Echtzeit-System zur Systemüberwachung (React, .NET-Microservices, geplante Jobs, Azure Workbooks) für über 50 Anwendungen im weltweiten Produktivbetrieb; senkte die Fehlererkennungszeit von 8-10 Stunden auf 10-15 Minuten und versah Alarme mit kontextbezogenen Fehlerdetails für eine schnellere Ursachenanalyse.",
         "Stabilisierte ein Legacy-System zur Abonnementverwaltung mit 50.000 Anbietern und 1 Mio. internationalen Mitgliedern und senkte die Zahl der Support-Tickets im Folgejahr um rund 30 %.",
         "Verantwortete die Migration von TFS zu Git, die Aktualisierung der .NET-Framework-Versionen und automatisierte CI/CD-Pipelines in der gesamten Altsystemlandschaft; die Bereitstellungszeit sank von 2-3 Stunden auf etwa 1 Stunde.",
-        "Überführte monolithische Legacy-Module in versionierte NuGet-Pakete und beseitigte damit Versionsinkonsistenzen in über 200 Anwendungen dieser Landschaft.",
+        "Überführte monolithische Legacy-Module in versionierte NuGet-Pakete und beseitigte damit Versionsinkonsistenzen in über 200 Anwendungen der Altsystemlandschaft.",
         "Entwickelte .NET-8-Microservices mit RabbitMQ und Web-API, um die Verarbeitung von Mitgliederabonnements neu aufzubauen.",
         "Führte das Team durch die PI-Planung, übersetzte fachliche Anforderungen in verbindliche Lieferzusagen und dokumentierte die zugrunde liegenden Abwägungen; betreute 4-5 Junior-Entwickler.",
         "Entwickelte neue Funktionen für bestehende C#-Windows-Anwendungen und hielt die älteren VB-Anwendungen im Betrieb."
