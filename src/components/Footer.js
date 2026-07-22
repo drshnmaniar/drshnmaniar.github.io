@@ -9,7 +9,7 @@ export default function Footer() {
         </h2>
         <p className="footer-availability">
           Working student, internship, or freelance today; full-time from early
-          2027 — or sooner, for the right role. Either way:{" "}
+          2027. Either way:{" "}
           <a href={`mailto:${data.email}`}>{data.email}</a>
         </p>
         <div className="footer-ctas">
