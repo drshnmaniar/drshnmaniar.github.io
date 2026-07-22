@@ -13,17 +13,11 @@
 \BLOCK{endif}
 \usepackage{geometry}
 \usepackage{enumitem}
+\usepackage{needspace}
 \usepackage[hidelinks]{hyperref}
-\BLOCK{if lang == 'de'}
-\usepackage{multicol}
-\usepackage{graphicx}
-\BLOCK{endif}
 
 % Page geometry settings
 \geometry{left=1.4cm, top=1cm, right=1.2cm, bottom=1cm}
-\BLOCK{if lang == 'de'}
-\setlength{\multicolsep}{0pt}
-\BLOCK{endif}
 
 %----------------------------------------------------------------------------------------
 %	CUSTOM COMMANDS
@@ -38,6 +32,23 @@
 \titleformat{\section}{
     \vspace{-4pt}\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
+
+% Never leave a heading stranded at the foot of a page. \resumeSection reserves
+% enough room for the rule plus the first entry's two heading lines and a bullet;
+% if that doesn't fit, the break happens *before* the header instead of after it.
+% \nopagebreak then forbids a break between the header and what follows.
+\newcommand{\resumeSection}[1]{%
+    \needspace{7\baselineskip}%
+    \section{\textbf{#1}}%
+    \nopagebreak
+}
+
+% Same guard one level down: an entry heading must keep its first bullet.
+\newcommand{\resumeKeepTogether}{\needspace{5\baselineskip}}
+
+% No single stranded line at the top or bottom of a page.
+\clubpenalty=10000
+\widowpenalty=10000
 
 % Experience/education heading — title left, meta right, no tables (ATS-friendly).
 % Local \rightskip=0pt cancels the global \raggedright so \hfill pushes flush right.
@@ -78,28 +89,7 @@
 \begin{document}
 % \fontfamily{cmr}\selectfont
 
-\BLOCK{if lang == 'de'}
-% Header section
-\begin{multicols}{2}
-    \columnsep=2cm
-    \textbf{\huge \name} \\[0.3em]
-    \VAR{ header.title | tex } \\[0.2em]
-    \VAR{ labels.address } \VAR{ header.address | tex } \\[0.2em]
-    \VAR{ labels.phone } +49-155 10826517 \\[0.2em]
-    \VAR{ labels.email } \href{mailto:drshnmaniar@gmail.com}{drshnmaniar@gmail.com} \\[0.2em]
-    \VAR{ labels.github } \href{https://github.com/drshnmaniar}{github.com/drshnmaniar} \\[0.2em]
-    \VAR{ labels.linkedin } \href{https://www.linkedin.com/in/drshnmaniar}{linkedin.com/in/drshnmaniar} \\[0.2em]
-    \VAR{ labels.website } \href{https://drshnmaniar.github.io}{drshnmaniar.github.io} \\[0.2em]
-    \VAR{ header.nationality | tex }
-
-    \columnbreak
-
-    \begin{flushright}
-    {\includegraphics[width=3.6cm]{darshan_square.png}}
-    \end{flushright}
-\end{multicols}
-\BLOCK{else}
-% Header (single column, no photo — ATS-friendly)
+% Header (single column, no photo — ATS-friendly; identical in both languages)
 \begin{center}
     {\huge \textbf{\name}} \\[0.4em]
     \VAR{ header.title | tex } \\[0.35em]
@@ -107,23 +97,21 @@
     \href{https://github.com/drshnmaniar}{github.com/drshnmaniar} \enspace|\enspace \href{https://www.linkedin.com/in/drshnmaniar}{linkedin.com/in/drshnmaniar} \enspace|\enspace \href{https://drshnmaniar.github.io}{drshnmaniar.github.io} \\[0.25em]
     \VAR{ header.nationality | tex | pipe_enspace }
 \end{center}
-\BLOCK{endif}
 
 \vspace{-2.5mm}
 %-----------Technical skills-----------------
-\section{\textbf{\VAR{ labels.summary | tex }}}
+\resumeSection{\VAR{ labels.summary | tex }}
 
  \begin{itemize}[leftmargin=0.05in, label={}]
     \small\item {\VAR{ summary | tex }}
  \end{itemize}
  \vspace{-16pt}
 %-----------EXPERIENCE-----------------
-\section{\textbf{\VAR{ labels.experience | tex }}}
-\pagebreak[3]
+\resumeSection{\VAR{ labels.experience | tex }}
   \resumeSubHeadingListStart
   \vspace{-1 mm}
 \BLOCK{for e in experience}
-    \pagebreak[2]
+    \resumeKeepTogether
     \resumeSubheading
       {\VAR{ e.org | tex }}{\VAR{ e.dates | tex }}
       {\VAR{ e.role | tex }}{\VAR{ e.location | tex }}
@@ -143,12 +131,11 @@
 \vspace{2.5 mm}
 %-----------PROJECTS-----------------
 %-----------EDUCATION-----------
-\section{\textbf{\VAR{ labels.education | tex }}}
-\pagebreak[3]
+\resumeSection{\VAR{ labels.education | tex }}
   \resumeSubHeadingListStart
   \vspace{-1 mm}
 \BLOCK{for e in education}
-    \pagebreak[2]
+    \resumeKeepTogether
     \resumeSubheading
       {\VAR{ e.institution | tex }}{\VAR{ e.dates | tex }}
       {\VAR{ e.degree | tex }\BLOCK{if e.note} {\bf (\VAR{ e.note | tex })}\BLOCK{endif}}{\VAR{ e.location | tex }}
@@ -156,8 +143,7 @@
   \resumeSubHeadingListEnd
 \vspace{-5.5mm}
 
-\section{\textbf{\VAR{ labels.skills | tex }}}
-\pagebreak[3]
+\resumeSection{\VAR{ labels.skills | tex }}
 \begin{itemize}[leftmargin=0.05in, label={}]
     \small\item{
 \BLOCK{for s in skills}
@@ -168,8 +154,7 @@
 \vspace{-4.5 mm}
 \vspace{0.5 mm}
 
-\section{\textbf{\VAR{ labels.certification | tex }}}
-\pagebreak[3]
+\resumeSection{\VAR{ labels.certification | tex }}
  \begin{itemize}[leftmargin=0.05in, label={}]
     \small\item{
 \BLOCK{for c in certifications}
@@ -181,12 +166,11 @@
 
 \vspace{0.5 mm} % Adjust the vertical space as needed
 
-\section{\textbf{\VAR{ labels.projects | tex }}}
-\pagebreak[3]
+\resumeSection{\VAR{ labels.projects | tex }}
 \resumeSubHeadingListStart
 \BLOCK{for p in projects}
     \vspace{-1 mm}
-    \pagebreak[2]
+    \resumeKeepTogether
     \resumeProject
       {\VAR{ p.title | tex }}{\VAR{ p.subtitle | tex }}{\VAR{ p.dates | tex }}{\BLOCK{if p.orgUrl}\href{\VAR{ p.orgUrl }}{\VAR{ p.org | tex }}\BLOCK{else}\VAR{ p.org | tex }\BLOCK{endif}}
       \resumeItemListStart

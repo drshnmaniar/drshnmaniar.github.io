@@ -6,13 +6,7 @@
     "education": "Education",
     "skills": "Technical Skills",
     "certification": "Certification",
-    "projects": "Projects",
-    "address": "",
-    "phone": "",
-    "email": "",
-    "github": "",
-    "linkedin": "",
-    "website": ""
+    "projects": "Projects"
   },
   "header": {
     "title": "Software Engineer III (Full Stack)",

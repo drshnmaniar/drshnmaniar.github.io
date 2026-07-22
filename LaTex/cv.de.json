@@ -6,13 +6,7 @@
     "education": "Bildungsweg",
     "skills": "Technische Fähigkeiten",
     "certification": "Zertifizierungen",
-    "projects": "Projekte",
-    "address": "Adresse:",
-    "phone": "Telefon:",
-    "email": "E-Mail:",
-    "github": "GitHub:",
-    "linkedin": "LinkedIn:",
-    "website": "Website:"
+    "projects": "Projekte"
   },
   "header": {
     "title": "Softwareentwickler III (Full Stack)",
