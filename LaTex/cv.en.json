@@ -5,21 +5,14 @@
     "experience": "Experience",
     "education": "Education",
     "skills": "Technical Skills",
-    "certification": "Certification",
-    "projects": "Projects",
-    "address": "",
-    "phone": "",
-    "email": "",
-    "github": "",
-    "linkedin": "",
-    "website": ""
+    "projects": "Projects"
   },
   "header": {
     "title": "Software Engineer III (Full Stack)",
     "address": "74081, Heilbronn, Germany",
-    "nationality": "Nationality: Indian | Work Authorization: German Student Visa"
+    "nationality": "Nationality: Indian | Student visa: 20 h/week, full-time in semester breaks | Full-time from early 2027"
   },
-  "summary": "Full Stack Software Engineer with 7+ years in enterprise application development, now based in Germany pursuing a Master's in Software Engineering at Hochschule Heilbronn. Specialized in legacy system modernization, performance optimization, and team leadership across multicultural, remote teams. Strong in .NET, React, and Azure cloud technologies, with a track record of stabilizing legacy platforms and cutting failure detection from hours to minutes. Fluent in English with developing German skills, committed to a long-term career in Germany.",
+  "summary": "Full Stack Engineer with 7+ years in enterprise .NET and React systems, specialized in legacy modernization: stabilizing the platforms other teams avoid and surfacing their failures before customers report them. Now in Germany for an M.Sc. at Hochschule Heilbronn, building a long-term career here.",
   "experience": [
     {
       "org": "Reveation Labs",
@@ -27,12 +20,12 @@
       "role": "Software Engineer III (Full Stack)",
       "location": "Remote, India",
       "bullets": [
-        "Architected a real-time health monitoring system using React, Microservices, Scheduled jobs and Azure Workbooks, reducing failure detection times from 8-10 hours to 10-15 minutes across 50+ global applications, enhancing business responsiveness.",
-        "Stabilized a legacy subscription management system serving 50K vendors and 1 million international members, reducing support tickets by roughly 30% over the following year through a systematic problem-solving approach.",
-        "Modernized legacy applications by transitioning from TFS to Git, updating framework versions, and implementing automated CI/CD pipelines for faster, more reliable deployments.",
-        "Collaborated with peers to implement microservices using .NET 8, RabbitMQ, and Web API, restructuring legacy applications to enhance member subscription processing and system scalability.",
-        "Led the team during PI planning, identifying key challenges, proposing actionable solutions, and documenting strategies to improve alignment and efficiency between business and IT teams, while mentoring 4-5 junior developers.",
-        "Developed new features for legacy Windows applications using C#, while maintaining and fixing critical functionality in older VB-based apps, ensuring system stability and enhancing user experience."
+        "Architected a real-time health monitoring system (React, .NET microservices, scheduled jobs, Azure Workbooks) covering 50+ production applications worldwide; cut failure detection from 8-10 hours to 10-15 minutes and shipped alerts carrying contextual error detail for faster root-cause identification.",
+        "Stabilized a legacy subscription management system serving 50K vendors and 1 million international members, cutting support tickets by roughly 30% over the following year.",
+        "Drove the TFS-to-Git migration, .NET framework upgrades, and automated CI/CD across the legacy C# and VB estate, cutting deployment time from 2-3 hours to about 1 hour.",
+        "Converted monolithic legacy modules into versioned NuGet packages, eliminating version inconsistencies across the 200+ applications in the legacy estate.",
+        "Built .NET 8 microservices with RabbitMQ and Web API to restructure member subscription processing.",
+        "Led the team through PI planning, turning business requirements into delivery commitments and documenting the trade-offs behind them; mentored 4-5 junior developers."
       ]
     },
     {
@@ -41,11 +34,10 @@
       "role": "Junior Software Engineer, promoted to Senior (2020)",
       "location": "Rajkot, India",
       "bullets": [
-        "Built an in-house Alexa skill end-to-end (front-end and back-end) during the 2018 voice-assistant wave, feeding and managing its content pipeline.",
         "Modernized a high-traffic, multi-role POS portal from AngularJS through a hybrid architecture to Angular; owned back-end services and stored procedures supporting 50K orders across peak summer seasons.",
         "Rebuilt a rehabilitation-facility ERP from classic ASP to Angular, modernizing the back-end and handling enrollment, therapy scheduling, and billing to partner foundations for 300-400 concurrent patients.",
         "Digitized a gene-testing lab's paper-based intake with a React front-end over a multi-stack back-end, and built the ETL pipeline feeding a long-term patient health-data store across 150-180 partner clinics.",
-        "Promoted to Senior in 2020; ran code reviews and pair programming sessions and coached 4-5 junior developers."
+        "Promoted to Senior in 2020; owned code review and pair programming for the team's junior developers from then on."
       ]
     }
   ],
@@ -73,13 +65,6 @@
     { "label": "Methodologies", "value": "Agile/Scrum, Microservices" },
     { "label": "Languages", "value": "English (Fluent), German (A1), Hindi (Native), Gujarati (Native)" }
   ],
-  "certifications": [
-    {
-      "name": "Python 3 Programming",
-      "provider": "Coursera",
-      "url": "https://coursera.org/share/ff34d909a15ffa2eec59e366533731b1"
-    }
-  ],
   "projects": [
     {
       "title": "Personal Site & Always-Current CV",
@@ -89,8 +74,7 @@
       "orgUrl": "https://github.com/drshnmaniar/drshnmaniar.github.io",
       "bullets": [
         "Built a React portfolio with all content in a single JSON file, so copy changes never touch component code",
-        "Set up a GitHub Actions pipeline that compiles the English and German CVs from LaTeX on every push, keeping the downloadable PDFs always current",
-        "Open source; the repository doubles as a verifiable, hands-on skills sample"
+        "Set up a GitHub Actions pipeline that compiles the English and German CVs from LaTeX on every push, so the downloadable PDFs cannot go stale; open source and readable end to end"
       ]
     },
     {
@@ -100,36 +84,8 @@
       "org": "Hochschule Heilbronn",
       "orgUrl": "",
       "bullets": [
-        "Designed and deployed a structured survey methodology collecting 36 responses across 29 days, analyzing user experience patterns and adoption barriers for AI tools in research workflows",
-        "Performed statistical analysis and thematic coding of quantitative and free-text data using descriptive statistics and manual analysis techniques",
-        "Found that 78% of respondents reported productivity gains, while reliability gaps were eroding their trust in the tools",
-        "Delivered actionable insights on tool fragmentation, pricing models, and workflow optimization that informed recommendations for platform consolidation"
-      ]
-    },
-    {
-      "title": "Legacy System Modernization & DevOps Transformation",
-      "subtitle": "Lead Developer",
-      "dates": "Dec 2024 - Jan 2025",
-      "org": "Reveation Labs",
-      "orgUrl": "",
-      "bullets": [
-        "Led migration of legacy VB applications from TFS to Git, upgrading .NET framework versions, and modernizing development workflows for improved maintainability",
-        "Architected modular NuGet package strategy converting monolithic legacy modules into reusable components, eliminating version inconsistencies across 200+ applications",
-        "Implemented CI/CD pipeline with automated code review and a manual testing gate, reducing deployment time from 2-3 hours to about 1 hour while establishing consistent code quality standards across development teams"
-      ]
-    },
-    {
-      "title": "System Health Monitoring Dashboard",
-      "subtitle": "Senior Full Stack Developer",
-      "dates": "Jun 2024 - Dec 2024",
-      "org": "Reveation Labs",
-      "orgUrl": "",
-      "bullets": [
-        "Architected comprehensive monitoring solution for 200+ mission-critical production systems, eliminating reactive incident management and ensuring business continuity",
-        "Developed real-time dashboard with intelligent alerting system, reducing Mean Time to Detection (MTTD) from hours to minutes, directly impacting customer satisfaction",
-        "Implemented automated notification system with contextual error analysis, enabling faster root cause identification and more proactive incident response",
-        "Delivered proactive monitoring solution that transformed operational model from client-reported issues to predictive maintenance",
-        "Collaborated with cross-functional teams across multiple time zones to ensure seamless integration with existing enterprise infrastructure"
+        "Designed and ran a survey of researchers using AI tools: 36 responses over 29 days, analyzed with descriptive statistics and hand-coded free-text answers",
+        "78% of respondents reported productivity gains, while reliability gaps were eroding their trust; reported on tool fragmentation and pricing, recommending consolidation on fewer tools"
       ]
     }
   ]
