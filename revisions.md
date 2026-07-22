@@ -35,7 +35,7 @@ After each task: re-run the whole pipeline, update the checkboxes, commit with m
 ### A. Credibility / consistency
 - [x] **C1** One canonical application count. Today: "50+ global applications" (experience) vs "200+ applications" (modernization project) vs "200+ mission-critical production systems" (monitoring project). Pick the defensible number(s), and if 50 and 200 measure different things, each occurrence must say *what* it counts.
 - [x] **C2** One canonical detection-time claim. Today: "8-10 hours to 10-15 minutes" (experience) vs "hours to minutes" (monitoring project). Same event → same figures, or the duplicate is removed (see S1).
-- [ ] **C3** No verbatim-duplicated achievements between Experience and Projects. Grep test: no sentence stem (≥6 consecutive words) appears in both sections.
+- [x] **C3** No verbatim-duplicated achievements between Experience and Projects. Grep test: no sentence stem (≥6 consecutive words) appears in both sections.
 - [x] **C4** "Mentored/coached 4-5 junior developers" appears at most once per employer and is phrased differently if it appears twice at all.
 - [x] **C5** Modernization project period "Dec 2024 - Jan 2025" either carries the real program span or the 6-week claim is scoped to what actually happened in 6 weeks. 200+ apps in 6 weeks fails the sniff test.
 - [x] **C6** Every number survives "how did you measure that?" — flag any % or count with no stated scope/window.
