@@ -44,7 +44,7 @@ After each task: re-run the whole pipeline, update the checkboxes, commit with m
 ### B. Structure
 - [x] **S1** Projects section contains no entry that restates an Experience bullet. Reveation projects are either merged into experience bullets or carry *only* detail not present there. Target: Projects = Personal Site, AI Research, and at most one non-duplicative Reveation entry.
 - [x] **S2** Certification section removed (single intro Coursera cert = junior signal). `labels.certification`, `certifications[]`, and the template's certification block all gone.
-- [ ] **S3** Summary ≤ 3 lines in the rendered PDF. Cut everything the CV already demonstrates.
+- [x] **S3** Summary ≤ 3 lines in the rendered PDF. Cut everything the CV already demonstrates.
 - [x] **S4** Section order after S2: Summary → Experience → Education → Technical Skills → Projects.
 - [ ] **S5** Both PDFs ≤ 2 pages; no orphaned headers (layout gate).
 
@@ -107,6 +107,7 @@ Each row records what a reviewer would notice changed, not the mechanical diff (
 | v3 | T3 | 2026-07-22 | The Certification section and its single introductory Coursera entry are gone — data, label, and template block. A 7-year engineer listing an intro Python cert reads junior; the section earned no space. Order is now Summary, Experience, Education, Technical Skills, Projects. | S2, S4 |
 | v4 | T4 | 2026-07-22 | The System Health Monitoring Dashboard project is gone: four of its five bullets restated the Experience bullet describing the same system, and the fifth was cross-team filler. Its one net-new detail — alerts carrying contextual error data for root-cause work — folded into that Experience bullet. | — (C3 partial) |
 | v5 | T5 | 2026-07-22 | The Legacy Modernization project is gone too, and with it the "200+ apps in six weeks" claim — resolved by deletion rather than by inventing a program span. Its two real facts moved into Experience as dated bullets: deployment time 2-3 hours to about 1 hour, and monolithic modules converted to versioned NuGet packages across the 200+ application estate. Projects is now employer-free: Personal Site and the AI research study. | C3, C5, S1 |
+| v6 | T6 | 2026-07-22 | Summary cut from five rendered lines to three in both languages. Gone: the tech-stack list (Skills already has it), the language levels (ditto), the M.Sc. restatement (Education has it), and the imprecise "hours to minutes" echo. Kept: 7+ years, the modernization specialism stated as what it actually does, and the intent to stay in Germany. | S3 |
 
 Rules for the agent filling this in:
 - One row per task, appended in the same commit as the task itself.
