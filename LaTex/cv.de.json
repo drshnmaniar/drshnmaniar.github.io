@@ -120,7 +120,7 @@
       "orgUrl": "",
       "bullets": [
         "Entwarf die Überwachungslösung für die über 50 Produktionsanwendungen des globalen Anwendungsbestands und ersetzte kundengemeldete Störungen durch proaktive Erkennung.",
-        "Entwickelte ein Echtzeit-Dashboard mit intelligentem Alarmsystem, das die Mean Time to Detection (MTTD) von Stunden auf Minuten reduzierte und sich direkt auf die Kundenzufriedenheit auswirkte.",
+        "Entwickelte das Echtzeit-Dashboard und die Alarmierungsschicht, die die mittlere Erkennungszeit (MTTD) von 8-10 Stunden auf 10-15 Minuten senkten.",
         "Implementierte ein automatisiertes Benachrichtigungssystem mit kontextbezogener Fehleranalyse, was eine schnellere Identifizierung der Grundursache und eine proaktivere Störungsbehebung ermöglichte.",
         "Lieferte eine proaktive Überwachungslösung, die das Betriebsmodell von kundengemeldeten Problemen auf vorausschauende Wartung umstellte.",
         "Arbeitete mit funktionsübergreifenden Teams über mehrere Zeitzonen hinweg zusammen, um eine nahtlose Integration in die bestehende Unternehmensinfrastruktur sicherzustellen."

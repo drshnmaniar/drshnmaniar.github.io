@@ -34,7 +34,7 @@ After each task: re-run the whole pipeline, update the checkboxes, commit with m
 
 ### A. Credibility / consistency
 - [x] **C1** One canonical application count. Today: "50+ global applications" (experience) vs "200+ applications" (modernization project) vs "200+ mission-critical production systems" (monitoring project). Pick the defensible number(s), and if 50 and 200 measure different things, each occurrence must say *what* it counts.
-- [ ] **C2** One canonical detection-time claim. Today: "8-10 hours to 10-15 minutes" (experience) vs "hours to minutes" (monitoring project). Same event → same figures, or the duplicate is removed (see S1).
+- [x] **C2** One canonical detection-time claim. Today: "8-10 hours to 10-15 minutes" (experience) vs "hours to minutes" (monitoring project). Same event → same figures, or the duplicate is removed (see S1).
 - [ ] **C3** No verbatim-duplicated achievements between Experience and Projects. Grep test: no sentence stem (≥6 consecutive words) appears in both sections.
 - [ ] **C4** "Mentored/coached 4-5 junior developers" appears at most once per employer and is phrased differently if it appears twice at all.
 - [ ] **C5** Modernization project period "Dec 2024 - Jan 2025" either carries the real program span or the 6-week claim is scoped to what actually happened in 6 weeks. 200+ apps in 6 weeks fails the sniff test.
@@ -103,6 +103,7 @@ Each row records what a reviewer would notice changed, not the mechanical diff (
 |---------|------|------|----------------------------------|---------------------|
 | v0 | — | 2026-07-22 | Baseline: unified EN/DE header (no photo), keep-together section guards, availability copy fixed. Known defects: 50-vs-200 app-count contradiction, duplicated Reveation projects, 5-line summary, Coursera cert section, filler adjectives. | — |
 | v1 | T1 | 2026-07-22 | The monitoring project claimed "200+ mission-critical production systems" while Experience described the same system as covering "50+ global applications". Monitoring now reads 50+ production applications in both places; the 200+ figure survives only where it belongs, scoped as "the 200+ applications in the legacy estate". | C1 |
+| v2 | T2 | 2026-07-22 | The monitoring project's vague "from hours to minutes" now carries the same 8-10 hours to 10-15 minutes figures the Experience bullet uses, so the two descriptions of one system no longer differ in precision. | C2 |
 
 Rules for the agent filling this in:
 - One row per task, appended in the same commit as the task itself.

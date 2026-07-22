@@ -120,7 +120,7 @@
       "orgUrl": "",
       "bullets": [
         "Architected the monitoring solution covering the 50+ production applications in the company's global estate, replacing client-reported incidents with proactive detection",
-        "Developed real-time dashboard with intelligent alerting system, reducing Mean Time to Detection (MTTD) from hours to minutes, directly impacting customer satisfaction",
+        "Developed the real-time dashboard and alerting layer that cut mean time to detection from 8-10 hours to 10-15 minutes",
         "Implemented automated notification system with contextual error analysis, enabling faster root cause identification and more proactive incident response",
         "Delivered proactive monitoring solution that transformed operational model from client-reported issues to predictive maintenance",
         "Collaborated with cross-functional teams across multiple time zones to ensure seamless integration with existing enterprise infrastructure"
