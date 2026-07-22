@@ -162,13 +162,14 @@
       "points": [
         "React site with all content in a single JSON file, so copy changes never touch components.",
         "GitHub Actions pipeline compiles English and German CVs from LaTeX on every push.",
+        "Content revisions run through an AI coding agent under a written standards-and-review loop — every claim gated, every revision logged, both files in the repo.",
         "Open source. Read the code; it's the most honest skills section on this page."
       ],
       "metrics": [
         { "value": "2", "label": "CV languages, one source" },
         { "value": "0", "label": "stale PDFs since launch" }
       ],
-      "tech": ["React", "GitHub Actions", "LaTeX", "CI/CD"],
+      "tech": ["React", "GitHub Actions", "LaTeX", "CI/CD", "Claude Code"],
       "link": "https://github.com/drshnmaniar/drshnmaniar.github.io"
     }
   ],
@@ -177,7 +178,7 @@
     "Frameworks": [".NET", "React", "Angular", "Entity Framework"],
     "Databases": ["SQL Server", "MySQL", "MongoDB"],
     "Cloud & Tools": ["Azure", "Azure DevOps", "Docker", "Git", "CI/CD", "RabbitMQ"],
-    "Practices": ["Agile/Scrum", "Microservices", "Legacy Modernization", "Mentoring"]
+    "Practices": ["Agile/Scrum", "Microservices", "Legacy Modernization", "Mentoring", "AI-assisted development (Claude Code)"]
   },
   "languages": [
     { "name": "English", "level": "fluent, my working language for 7+ years" },

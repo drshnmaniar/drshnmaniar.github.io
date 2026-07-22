@@ -62,7 +62,7 @@
     { "label": "Frameworks", "value": ".NET, React.js, Angular, Entity Framework" },
     { "label": "Datenbanken", "value": "SQL Server, MySQL, MongoDB" },
     { "label": "Tools", "value": "Azure, Docker, Git, CI/CD, RabbitMQ" },
-    { "label": "Methoden", "value": "Agile/Scrum, Microservices" },
+    { "label": "Methoden", "value": "Agile/Scrum, Microservices, KI-gestützte Entwicklung (Claude Code)" },
     { "label": "Sprachen", "value": "Englisch (fließend), Deutsch (A1), Hindi (Muttersprache), Gujarati (Muttersprache)" }
   ],
   "projects": [
