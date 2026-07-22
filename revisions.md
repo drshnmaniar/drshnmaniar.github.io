@@ -47,7 +47,7 @@ After each task: re-run the whole pipeline, update the checkboxes, commit with m
 - [x] **S3** Summary ≤ 3 lines in the rendered PDF. Cut everything the CV already demonstrates.
 - [x] **S4** Section order after S2: Summary → Experience → Education → Technical Skills → Projects.
 - [x] **S5** Both PDFs ≤ 2 pages; no orphaned headers (layout gate).
-- [ ] **S6** No mostly-empty page. Either the CV fits one dense page, or page 2 is at least half full. Added by the gate-4 screener pass at v12: page 1 was ~90% full and page 2 ~25%, which reads like the content ran out.
+- [x] **S6** No mostly-empty page. Either the CV fits one dense page, or page 2 is at least half full. Added by the gate-4 screener pass at v12: page 1 was ~90% full and page 2 ~25%, which reads like the content ran out.
 
 ### C. Language / signal
 - [x] **L1** Zero filler adjectives in bullets: comprehensive, intelligent, seamless, robust, cutting-edge, mission-critical (unless counting something), "ensuring business continuity", "directly impacting customer satisfaction". Grep for each.
@@ -116,6 +116,7 @@ Each row records what a reviewer would notice changed, not the mechanical diff (
 | v10 | T10 | 2026-07-22 | AI-research entry cut from four bullets to three and stripped of research-theatre vocabulary: "designed and deployed a structured survey methodology" is now "designed and ran a survey", and "statistical analysis ... using descriptive statistics" (which said the same thing twice) is now plainly descriptive statistics plus hand-coded free text. The 78% stays framed as what respondents reported. | L4 |
 | v11 | T11 | 2026-07-22 | German phrasing pass, facts untouched. Calques replaced with the terms German IT actually uses (`Altsystemlandschaft`, not `Altsystembestand`; `Inhaltsänderungen ohne Eingriff in den Komponentencode`, not code that gets "berührt"). Fixed a split-verb error in the survey bullet, rebuilt the profile in noun style so it no longer switches subject mid-sentence, lower-cased `(fließend)`, and left the Bachelor's title in English to match the EN version. | L5 |
 | v12 | T12 | 2026-07-22 | Consistency sweep. Caught one straggler the earlier tasks missed: "the estate" carried 50+ in one bullet and 200+ in another, reviving the C1 contradiction in softer words. Monitoring now covers "50+ production applications worldwide"; the NuGet work covers "the 200+ applications in the legacy estate". Layout verified from rendered page images rather than text extraction, which had been reordering right-aligned columns. Screener pass logged one new finding as S6. | C6, C7, S5 |
+| v13 | T13 | 2026-07-22 | Both CVs are now one dense page instead of one full page plus a quarter-full one. Cut by weakest-first, not by padding: the 2018 Alexa skill (oldest, least relevant to a .NET modernization pitch), the C#/VB feature-maintenance bullet (its VB signal moved into the migration bullet, which now reads "legacy C# and VB estate"), and two bullets merged in each project. No claim was lost, only restated more tightly. | S6 |
 
 Rules for the agent filling this in:
 - One row per task, appended in the same commit as the task itself.

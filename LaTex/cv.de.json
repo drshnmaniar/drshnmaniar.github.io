@@ -22,11 +22,10 @@
       "bullets": [
         "Konzipierte ein Echtzeit-System zur Systemüberwachung (React, .NET-Microservices, geplante Jobs, Azure Workbooks) für über 50 Anwendungen im weltweiten Produktivbetrieb; senkte die Fehlererkennungszeit von 8-10 Stunden auf 10-15 Minuten und versah Alarme mit kontextbezogenen Fehlerdetails für eine schnellere Ursachenanalyse.",
         "Stabilisierte ein Legacy-System zur Abonnementverwaltung mit 50.000 Anbietern und 1 Mio. internationalen Mitgliedern und senkte die Zahl der Support-Tickets im Folgejahr um rund 30 %.",
-        "Verantwortete die Migration von TFS zu Git, die Aktualisierung der .NET-Framework-Versionen und automatisierte CI/CD-Pipelines in der gesamten Altsystemlandschaft; die Bereitstellungszeit sank von 2-3 Stunden auf etwa 1 Stunde.",
+        "Verantwortete die Migration von TFS zu Git, die Aktualisierung der .NET-Framework-Versionen und automatisierte CI/CD-Pipelines in der gesamten C#- und VB-Altsystemlandschaft; die Bereitstellungszeit sank von 2-3 Stunden auf etwa 1 Stunde.",
         "Überführte monolithische Legacy-Module in versionierte NuGet-Pakete und beseitigte damit Versionsinkonsistenzen in über 200 Anwendungen der Altsystemlandschaft.",
         "Entwickelte .NET-8-Microservices mit RabbitMQ und Web-API, um die Verarbeitung von Mitgliederabonnements neu aufzubauen.",
-        "Führte das Team durch die PI-Planung, übersetzte fachliche Anforderungen in verbindliche Lieferzusagen und dokumentierte die zugrunde liegenden Abwägungen; betreute 4-5 Junior-Entwickler.",
-        "Entwickelte neue Funktionen für bestehende C#-Windows-Anwendungen und hielt die älteren VB-Anwendungen im Betrieb."
+        "Führte das Team durch die PI-Planung, übersetzte fachliche Anforderungen in verbindliche Lieferzusagen und dokumentierte die zugrunde liegenden Abwägungen; betreute 4-5 Junior-Entwickler."
       ]
     },
     {
@@ -35,7 +34,6 @@
       "role": "Junior Softwareentwickler, befördert zum Senior (2020)",
       "location": "Rajkot, Indien",
       "bullets": [
-        "Entwickelte während der Sprachassistenten-Welle 2018 einen internen Alexa-Skill vollständig (Frontend und Backend) und betreute die zugehörige Content-Pipeline.",
         "Modernisierte ein stark frequentiertes POS-Portal mit mehreren Nutzerrollen von AngularJS über eine Hybridarchitektur zu Angular; verantwortete Backend-Services und Stored Procedures für 50.000 Bestellungen in den sommerlichen Spitzenzeiten.",
         "Migrierte das ERP-System einer Reha-Einrichtung von klassischem ASP auf Angular, modernisierte das Backend und bildete Aufnahme, Therapieplanung und Abrechnung gegenüber Partnerstiftungen für 300-400 gleichzeitig betreute Patienten ab.",
         "Digitalisierte die papierbasierte Erfassung eines Gentestlabors mit einem React-Frontend über ein Multi-Stack-Backend und baute die ETL-Pipeline für einen langfristigen Speicher für Patientengesundheitsdaten aus 150-180 Partnerkliniken.",
@@ -76,8 +74,7 @@
       "orgUrl": "https://github.com/drshnmaniar/drshnmaniar.github.io",
       "bullets": [
         "Entwickelte ein React-Portfolio mit allen Inhalten in einer einzigen JSON-Datei, sodass Inhaltsänderungen ohne Eingriff in den Komponentencode möglich sind.",
-        "Richtete eine GitHub-Actions-Pipeline ein, die den englischen und deutschen Lebenslauf bei jedem Push aus LaTeX kompiliert und die herunterladbaren PDFs stets aktuell hält.",
-        "Open Source; das Repository dient zugleich als überprüfbare, praktische Arbeitsprobe."
+        "Richtete eine GitHub-Actions-Pipeline ein, die den englischen und deutschen Lebenslauf bei jedem Push aus LaTeX kompiliert, sodass die herunterladbaren PDFs nicht veralten können; Open Source und vollständig nachvollziehbar."
       ]
     },
     {
@@ -88,8 +85,7 @@
       "orgUrl": "",
       "bullets": [
         "Konzipierte eine Umfrage unter Forschenden zur Nutzung von KI-Tools und führte sie durch: 36 Antworten in 29 Tagen, ausgewertet mit deskriptiver Statistik und manuell kodierten Freitextantworten.",
-        "78 % der Befragten berichteten von Produktivitätsgewinnen, während Zuverlässigkeitslücken ihr Vertrauen in die Tools untergruben.",
-        "Dokumentierte Ergebnisse zu Tool-Fragmentierung, Preismodellen und Reibungspunkten im Arbeitsablauf und empfahl die Konsolidierung auf weniger Werkzeuge."
+        "78 % der Befragten berichteten von Produktivitätsgewinnen, während Zuverlässigkeitslücken ihr Vertrauen untergruben; dokumentierte Tool-Fragmentierung und Preismodelle und empfahl die Konsolidierung auf weniger Werkzeuge."
       ]
     }
   ]
