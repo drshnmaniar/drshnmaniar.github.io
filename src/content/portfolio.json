@@ -104,12 +104,12 @@
       "icon": "📡",
       "pitch": "From \"the client called, something's down\" to \"we fixed it before anyone noticed.\"",
       "points": [
-        "Real-time dashboard + intelligent alerting for 200+ mission-critical production systems.",
-        "Mean Time to Detection: hours → minutes.",
-        "Automated notifications with contextual error analysis for faster root-cause hunting."
+        "Real-time dashboard and alerting across the 50+ applications running in production worldwide.",
+        "Mean time to detection: 8-10 hours → 10-15 minutes.",
+        "Alerts carry contextual error detail, so the on-call engineer starts at the cause instead of the symptom."
       ],
       "metrics": [
-        { "value": "200+", "label": "systems watched" },
+        { "value": "50+", "label": "systems watched" },
         { "value": "8h → 15m", "label": "mean time to detection" }
       ],
       "tech": ["React", "Microservices", ".NET", "Azure Workbooks"]
