@@ -23,20 +23,12 @@
   ],
   "journey": [
     {
-      "year": "2013",
-      "place": "Ahmedabad, India",
-      "title": "B.E. Computer Science",
-      "org": "Gujarat Technological University",
-      "detail": "Where it all started. Graduated 2017 with a CGPA of 8.24 and an itch to build real things.",
-      "emoji": "🎓"
-    },
-    {
-      "year": "2017",
-      "place": "Rajkot, India",
-      "title": "Junior Software Engineer → Senior Software Engineer",
-      "org": "Tark Technologies LLP",
-      "detail": "Interned three months, then joined as a Junior Software Engineer that December. Promoted to Senior in 2020. Five years, one lesson: maintainable beats clever.",
-      "emoji": "⚙️"
+      "year": "2025",
+      "place": "Heilbronn, Germany",
+      "title": "M.Sc. Software Engineering & Management",
+      "org": "Hochschule Heilbronn",
+      "detail": "New country, new language, and a move I made on purpose. Germany is the long game; the degree is how I get in the door, not the reason I came.",
+      "emoji": "🇩🇪"
     },
     {
       "year": "2022",
@@ -47,24 +39,24 @@
       "emoji": "🚀"
     },
     {
-      "year": "2025",
-      "place": "Heilbronn, Germany",
-      "title": "M.Sc. Software Engineering & Management",
-      "org": "Hochschule Heilbronn",
-      "detail": "New country, new language, and a move I made on purpose. Germany is the long game; the degree is how I get in the door, not the reason I came.",
-      "emoji": "🇩🇪"
+      "year": "2017",
+      "place": "Rajkot, India",
+      "title": "Junior Software Engineer → Senior Software Engineer",
+      "org": "Tark Technologies LLP",
+      "detail": "Interned three months, then joined as a Junior Software Engineer that December. Promoted to Senior in 2020. Five years, one lesson: maintainable beats clever.",
+      "emoji": "⚙️"
     },
     {
-      "year": "2027",
-      "place": "Germany",
-      "title": "Full-time, somewhere good",
-      "org": "Possibly your team",
-      "detail": "Graduating early 2027. Until then: working student, internship, or freelance. After: building things that outlive their framework.",
-      "emoji": "🎯"
+      "year": "2013",
+      "place": "Ahmedabad, India",
+      "title": "B.E. Computer Science",
+      "org": "Gujarat Technological University",
+      "detail": "Where it all started. Graduated 2017 with a CGPA of 8.24 and an itch to build real things.",
+      "emoji": "🎓"
     }
   ],
   "german": {
-    "current": "A1",
+    "current": "A2",
     "levels": ["A1", "A2", "B1", "B2", "C1", "C2"],
     "note": "Deutsch lernen: in progress. Ich gebe nicht auf."
   },
@@ -182,7 +174,7 @@
   },
   "languages": [
     { "name": "English", "level": "fluent, my working language for 7+ years" },
-    { "name": "German", "level": "A1, actively improving" },
+    { "name": "German", "level": "A2, actively improving" },
     { "name": "Hindi", "level": "native" },
     { "name": "Gujarati", "level": "native" }
   ]
